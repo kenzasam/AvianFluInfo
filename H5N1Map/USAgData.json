@@ -1,0 +1,267 @@
+{
+    "AZ": { 
+        "pos":0,
+        "fillKey": "Republican",
+        "deptAg": "",
+        "info": ""
+    },
+  "CO": {
+      "pos":0,
+      "fillKey": "Light Democrat",
+      "deptAg": "https://ag.colorado.gov/animal-health/reportable-diseases/avian-influenza/highly-pathogenic-avian-influenza-hpai-outbreak",
+      "info": "The Colorado Dept of Agriculture provides up to 4 weeks of Free PPE to your farm workers. Order can be filled here https://docs.google.com/forms/d/e/1FAIpQLSeuTInfC_wO084NERUUsDm8GZ_Cax-_soYHAkfyUuXOpYeTHA/viewform?vc=0&c=0&w=1&flr=0).  
+. Obligatory testing: All CDPHE-licensed dairy cow farms in the state of Colorado must submit weekly bulk-tank samples for testing"
+    },
+  "DE": {
+    "pos":0,
+      "fillKey": "Democrat",
+      "deptAg": "https://agriculture.delaware.gov/poultry-animal-health/avian-influenza/",
+      "info": ""
+  },
+  "FL": {
+    "pos":0,
+      "fillKey": "UNDECIDED",
+      "deptAg": "5",
+      "info": ""
+  },
+  "GA": {
+    "pos":0,
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "HI": {
+    "pos":0,
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "ID": {
+    "pos":0,
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "IL": {
+    "pos":0,
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "IN": {
+    "pos":0,
+      "fillKey": "Republican",
+      "deptAg": 11,
+      "info": ""
+  },
+  "IA": {
+    "pos":0,
+      "fillKey": "Light Democrat",
+        "deptAg": 11,
+      "info": ""
+  },
+  "KS": {
+    "pos":0,
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "KY": {
+    "pos":0,
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "LA": {
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "MD": {
+    "pos":0,
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "ME": {
+    "pos":0,
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "MA": {
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "MN": {
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "MI": {
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "MS": {
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "MO": {
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "MT": {
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "NC": {
+      "fillKey": "Light Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "NE": {
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "NV": {
+      "fillKey": "Heavy Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "NH": {
+      "fillKey": "Light Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "NJ": {
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "NY": {
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "ND": {
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "NM": {
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "OH": {
+      "fillKey": "UNDECIDED",
+      "deptAg": 32,
+      "info": ""
+  },
+  "OK": {
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "OR": {
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "PA": {
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "RI": {
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "SC": {
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "SD": {
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "TN": {
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "TX": {
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "UT": {
+      "fillKey": "Republican",
+      "deptAg": "https://epi.utah.gov/bird-flu-in-humans/",
+      "info": ""
+  },
+  "WI": {
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "VA": {
+      "fillKey": "Light Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "VT": {
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "WA": {
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "WV": {
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "WY": {
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "CA": {
+      "fillKey": "Democrat",
+      "deptAg": 32,
+      "info": ""
+  },
+  "CT": {
+      "fillKey": "Democrat",
+      "deptAg": "https://portal.ct.gov/deep/wildlife/avian-influenza , https://portal.ct.gov/doag/regulatory/regulatory/avian-influenza-information",
+      "info": "Anyone who may suspect poultry on their farm may have died from unknown causes should call the State Veterinarian at (860) 713-2505 or email ctstate.vet@ct.gov. "
+  },
+  "AK": {
+      "fillKey": "Republican",
+      "deptAg": "https://agriculture.arkansas.gov/highly-pathogenic-avian-influenza/",
+      "info": "Monitor all flocks for increased mortality or clinical signs and report any concerns to your veterinarian, the Arkansas Livestock and Poultry Division at 501-225-1598, or your local Arkansas Cooperative Extension County Agent. You can find your county office here: https://www.uaex.uada.edu/counties/. Backyard flock owners who have sick or unusual deaths in their flocks should email info@agriculture.arkansas.gov or call (501) 823-1746."
+  },
+  "AR": {
+      "fillKey": "Republican",
+      "deptAg": 32,
+      "info": ""
+  },
+  "AL": {
+      "fillKey": "Republican",
+      "deptAg": "https://agi.alabama.gov/animalindustries/2024/12/highly-pathogenic-avian-influenza-confirmed-in-an-alabama-commercial-broiler-farm-and-a-backyard-flock/",
+      "info": "For information on biosecurity measures, visit http://healthybirds.aphis.usda.gov. Report sick or dead wild birds to the Alabama Department of Natural Resources and Conservation at 334-242-3469. Report sick or dead domestic birds and poultry to ADAI's Poultry Unit at 334-240-6584"
+  }
+}

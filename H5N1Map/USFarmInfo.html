@@ -1,0 +1,40 @@
+<!-- example of real time updated map w jQuery: https://gist.github.com/markmarkoh/4127667 -->
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<body>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="/datamaps.usa.min.js"></script>
+    <div id="container1" style="position: relative; width: 500px; height: 300px;"></div>
+    <div id="container2" style="position: relative; width: 500px; height: 300px;"></div>
+    <script>
+        var map = new Datamap({
+            scope: 'usa',
+            element: document.getElementById('container1'),
+            geographyConfig: {
+                highlightBorderColor: '#bada55',
+                highlightBorderWidth: 3,
+                popupTemplate: function(geo, data) {
+                    return data && data.info && '<div class="hoverinfo">' + geo.properties.name +  '<a href='+ data.deptAg + '> Department of Agriculture: </a>  '
+                }
+            },
+            dataUrl: 'USAgData.json',
+            dataType: 'json',
+            data:{},
+            fills: {
+                'High': '#CA5E5B',
+                'Medium High': '#EAA9A8',
+                defaultFill: '#EDDC4E'
+            },
+            done: function(map){
+                map.svg.selectAll('.datamaps-subunit').on('click', function(geo, data){
+                    var m = geo.properties.name +  '<a href='+ data.deptAg + '> Department of Agriculture: </a>  '
+                    document.getElementById('container2').innerHTML = m;
+                })
+            }
+        });
+        map.labels();
+        
+    </script>
+    </body>
