@@ -3,13 +3,15 @@ layout: default
 title: H5N1 Outbreak Resources
 ---
 
-# H5N1 , 2024 Outbreak Resources
+# BirdFluInfo
 
 ## About Bird Flu
 
 Bird Flu, also called Avian Influenza, Highly Pathogenic Avian Influenza (HPAI), is a disease caused by a flu virus, specifically an Influenza A virus subtype called H5N1.
 
 Avian flu is a virus that naturally spreads among wild birds. It can also infect poultry and other kinds of animals, including cows. Animals can also infect humans.
+
+There is currently an active bird flu outbreak in the United States.
 
 ### Risk
 
@@ -60,40 +62,7 @@ Last edited: December 19, 2024
 This information is live updated. (infographic live synced w cdc data)  
 (number of human cases: confirmed by animal infection, human to human, unknown)
 
----
 
-## FAQ (Page)
 
-### For the general public
-
-* What are we currently doing to combat the spread of bird flu?  
-  * USDA National milk testing (started Dec 6), CDC is using its Influenza A capacity to test for H5N1  
-* Is milk safe to drink?  
-  * Pasteurized milk is safe to drink. The CDC advises against drinking raw milk.  
-* I’m sick. Can it be bird flu?  
-  * The risk to the public is currently listed as low. Please consult your physician.  
-* How likely is this going to become a pandemic Influenza A?  
-  * Fff  
-* I found (a) dead animal(s). What do I do?  
-  * Do not touch the animal  
-  * If you find dead animals:  
-    * Colorado: Notify your local Colorado Parks and Wildlife office if you find three or more dead wild birds in a specific area within two weeks, or if you find sick or dead mammals.
-
-### For researchers and the scientific community
-
-### For farm workers and farmers working with cattle, swine and poultry
-
-* I think my herd is sick. What do I do?  
-  * Colorado: If you have questions about sick or dead animals on the farm, ask your farm manager and herd veterinarian. Immediately contact and report disease to the State Veterinarian’s office by calling 303-869-9130 or using the reportable disease case report form.  
-* I think I am sick. What do I do?  
-  * Colorado: call CDPHE at 303-692-2700 (after normal business hours: 303-370-9395). The Department can help you get a flu test and medicine if you need it.  
-* I want to implement practices to safeguard my herd. Where can I find more information?  
-  * US: Contact your local state vet:  
-* I want to implement practices to safeguard my workers. Where can I find more information?  
-  * Contact your local state vet:  
-  * Implement the CDC recommended guidelines  
-* Is there financial assistance to help me implement safe biosecurity practices?  
-  * US: Yes. The USDA provides financial assistance for sampling costs, milk offset,   
-  * Canada: 
 
 Last edited: December 19, 2024  

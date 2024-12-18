@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav></nav>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/farmers.html">For Farmers</a></li>
@@ -13,9 +15,13 @@
                 <li><a href="/faq.html">FAQ</a></li>
             </ul>
         </nav>
+        <h1>{{ page.title }}</h1>
     </header>
     <main>
         {{ content }}
     </main>
+    {% if page.script %}
+    <script src="{{ page.script }}"></script>
+    {% endif %}
 </body>
 </html>

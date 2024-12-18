@@ -31,7 +31,9 @@
                 defaultFill: '#EDDC4E'
             },
             done: function(map) {
+                console.log("Map Data:", map.options.data);
                 map.svg.selectAll('.datamaps-subunit').on('click', function(geo, data) {
+                    console.log("Clicked Data:", data);
                     var deptAgLink = data && data.deptAg ? `<a href='${data.deptAg}' target="_blank">Department of Agriculture</a>` : 'No Department of Agriculture link available';
                     document.getElementById('container2').innerHTML = `${geo.properties.name}: ${deptAgLink}`;
                 });

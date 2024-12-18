@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: datavis
 title: FAQ
+script: assets/USFarmInfo.js
 ---
 
 ## Information for Farm Workers
