@@ -1,6 +1,11 @@
+---
+layout: default
+title: H5N1 Outbreak Resources
+---
+
 # H5N1 , 2024 Outbreak Resources
 
-## About Bird Flu (homepage)
+## About Bird Flu
 
 Bird Flu, also called Avian Influenza, Highly Pathogenic Avian Influenza (HPAI), is a disease caused by a flu virus, specifically an Influenza A virus subtype called H5N1.
 
@@ -37,42 +42,10 @@ Avoid direct contact with wild birds and observe them only from a distance. Wild
 Additional precautions should be taken by people frequently exposed to animals, which you can read more about below.  
 CDC guidance for precautions: https://www.cdc.gov/bird-flu/prevention/worker-protection-ppe.html
 
-## Information for Farm Workers
 
-If you work with dairy cows suspected or confirmed to have avian flu and you start to feel sick, please contact your local public health department and find more info in the FAQ.
-
-If you see sick or dead animals, get in touch with your local state agriculture department. Find you state Vet [here](https://www.aphis.usda.gov/contact/animal-health?filter=report%20sick%20or%20dead%20livestock%2C%20aquatics%2C%20or%20poultry).
-
-United States, General
-
-* The USDA provides financial assistance for milk testing, PPE, offset for milk loss, and other biosecurity measures. Apply [here](https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/livestock/financial-assistance).  
-* A free biosecurity kit is available for dairy farms: https://www.centerfordairyexcellence.org/request-an-everyday-biosecurity-kit/  
-* There is free support available to improve your farms cybersecurity and operational systems. Please contact ISAC : https://www.isac.bio/post/update-hpai-h5n1-avian-influenza-2024
+More information for the General Public:
 
 
-
-## Information for the General Public
-
-Colorado State Public Health  
-Washington State Public Health  
-USDA
-
-## Information for the Scientific Community
-
-**Analysed data**  
-Phylogenetic analysis of H5N1: Nextstrain
-
-**Raw data**  
-Genetic Sequence information from various sources: [https://gisaid.org/](https://gisaid.org/)  
-Genetic sequence information from he National Veterinary Services Laboratories (NVSL) of the Animal and Plant Health Inspection Service (APHIS) of the U.S. Department of Agriculture (USDA):  [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1102327](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1102327)  
-Wastewater surveillance data: [https://data.wastewaterscan.org/](https://data.wastewaterscan.org/)
-
-**Tools and methods**  
-Consensus genomes: [https://github.com/andersen-lab/avian-influenza](https://github.com/andersen-lab/avian-influenza)
-
-The CDC does not have recommendations for H5N1 specific RT-PCR tests available yet. The following methods can be used:
-
-Control samples can be found at following vendors:
 
 ## About this website
 

@@ -16,7 +16,10 @@
                 highlightBorderColor: '#bada55',
                 highlightBorderWidth: 3,
                 popupTemplate: function(geo, data) {
-                    return data && data.info && '<div class="hoverinfo">' + geo.properties.name +  '<a href='+ data.deptAg + '> Department of Agriculture: </a>  '
+                    if (data && data.deptAg) {
+                        return `<div class="hoverinfo">${geo.properties.name} <a href='${data.deptAg}' target="_blank">Department of Agriculture</a></div>`;
+                    }
+                    return `<div class="hoverinfo">${geo.properties.name}: No Department of Agriculture link available</div>`;
                 }
             },
             dataUrl: 'USAgData.json',
@@ -27,11 +30,11 @@
                 'Medium High': '#EAA9A8',
                 defaultFill: '#EDDC4E'
             },
-            done: function(map){
-                map.svg.selectAll('.datamaps-subunit').on('click', function(geo, data){
-                    var m = geo.properties.name +  '<a href='+ data.deptAg + '> Department of Agriculture: </a>  '
-                    document.getElementById('container2').innerHTML = m;
-                })
+            done: function(map) {
+                map.svg.selectAll('.datamaps-subunit').on('click', function(geo, data) {
+                    var deptAgLink = data && data.deptAg ? `<a href='${data.deptAg}' target="_blank">Department of Agriculture</a>` : 'No Department of Agriculture link available';
+                    document.getElementById('container2').innerHTML = `${geo.properties.name}: ${deptAgLink}`;
+                });
             }
         });
         map.labels();
