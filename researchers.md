@@ -3,8 +3,9 @@ layout: default
 title: Scientific Community Resources
 ---
 
-## Analysed data
+## Other data
 * Phylogenetic analysis of H5N1: [Nextstrain](https://nextstrain.org/avian-flu/h5n1/ha/all-time@2024-06-18)
+* Detection of HPAI in Wild Mammals: [USDA](https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/mammals)
 
 ## Raw data
 * Genetic Sequence information from various sources: [GISAID](https://gisaid.org/)  

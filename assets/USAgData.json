@@ -142,24 +142,20 @@
       "info": ""
   },
   "NM": {
-      "fillKey": "Democrat",
-      "deptAg": 32,
-      "info": ""
+      "deptAg": "https://nmdeptag.nmsu.edu/highly-pathogenic-avian-influenza-in-dairy-cattle.html",
+      "info": "Dairy producers who believe dairy cattle within their herd are showing the clinical signs should report these signs immediately to the New Mexico State Veterinarian at the New Mexico Livestock Board at 505-841-6161"
   },
   "OH": {
-      "fillKey": "UNDECIDED",
-      "deptAg": 32,
-      "info": ""
+      "deptAg": "https://agri.ohio.gov/divisions/animal-health/HPAI/02.25.2022HPAIUpdate",
+      "info": "Several clear guidelines available on ODA website. ODA can be reached at (614) 728-6220 . Information on how to test your flock with Animal Health & Animal Disease Diagnostic Laboratory: https://agri.ohio.gov/programs/animal-disease-diagnostic-lab/resources/highly-pathogenic-avian-influenza "
   },
   "OK": {
-      "fillKey": "Republican",
-      "deptAg": 32,
-      "info": ""
+      "deptAg": "https://ag.ok.gov/disease-alerts/",
+      "info": "A 2-1-1 phone line is currently active and can be called 24 hours a day. If the 211 call line does not have an answer to your question, they will connect you with an ODAFF employee for an answer. It is recommended that Oklahoma dairy farmers enhance their biosecurity protocols and practices, communicate regularly with their herd veterinarian, and report any possible HPAI cases to ODAFF by calling 405-522-6141."
   },
   "OR": {
-      "fillKey": "Democrat",
-      "deptAg": 32,
-      "info": ""
+      "deptAg": "https://www.oregon.gov/oda/animal-health-feeds-livestock-id/animal-diseases/Pages/avian-influenza.aspx",
+      "info": "If you find a sick or dead animal and suspect bird flu, contact your Oregon State Veterinarian AHHotline@oda.oregon.gov or 503-986-4711. For wild birds, contact the Oregon Department of Fish and Wildlifeat  1-866-968-2600 "
   },
   "PA": {
       "deptAg": "https://www.pa.gov/agencies/pda/animals/diseases/avian-influenza.html",
@@ -170,9 +166,8 @@
       "info": "contact DEM at 401-222-2781 if they believe there are sick birds in their flocks. To report sick or dying domestic poultry after regular business hours, call 401-222-3070. To report sick or dying wild birds, call DEM’s Division of Fish + Wildlife at 401-789-0281. DEM encourages constituents to complete this online form in all suspected cases of HPAI infection: https://ridem.wufoo.com/forms/suspected-avian-influenza-case-report-form/"
   },
   "SC": {
-      "fillKey": "Republican",
-      "deptAg": 32,
-      "info": ""
+      "deptAg": "https://agriculture.sc.gov/",
+      "info": "Information on milk testing and collection can be found on Clemson.edu, https://www.clemson.edu/public/lph/ahp/h5n1/index.html . State vet  can be reached at mneault@clemson.edu or 803-726-7818. "
   },
   "SD": {
       "fillKey": "Republican",
