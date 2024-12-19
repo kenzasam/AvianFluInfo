@@ -26,39 +26,21 @@ People with increased risk of exposure to novel influenza A viruses associated w
 ## Biosecurity
 
 ### Countermeasures and surveillance 
-There are vaccines available in the case of an outbreak in the national stockpile (source). Flu vaccines have low efficacy (source). The efficacy of the bird flu vaccines against HPAI is unknown.   
-There are antivirals and treatments availale that work for other Influenza A subtypes.  
-There are no lateral flow assays for humans validated for Influenza A H5N1 (source). 
+* There are vaccines available in the case of an outbreak in the national stockpile (source). The efficacy of the bird flu vaccines against HPAI is unknown.   
+* There are antivirals and treatments available that work for other Influenza A subtypes.
+* CDC performs H5N1 specific surveillance (human) through its influenza A diseae surveillance program, and testing humans exposed to infected animals.
+* USDA performs H5N1 specific surveillance (animal) by milk testing,   
 
-CDC performs surveillance by … (influenza A program)  
-USDA performs surveillance by (milk testing program)  
-Canadian Food Inspection Agency
 
 ### General Precautions
 Avoid direct contact with wild birds and observe them only from a distance. Wild birds can have avian flu even if they don’t look sick. Do not touch sick or dead animals, or surfaces contaminated with animal feces, if possible. Avoid tracking those materials home or to backyard flocks on boots and other items.
-
-Additional precautions should be taken by people frequently exposed to animals, which you can read more about below.  
-CDC guidance for precautions: https://www.cdc.gov/bird-flu/prevention/worker-protection-ppe.html
-
-
-More information for the General Public:
-
-
+ 
+[CDC guidance for precautions](https://www.cdc.gov/bird-flu/prevention/worker-protection-ppe.html)
 
 ## About this website
 
 This website contains information pulled from the CDC, USDA, and local state authorities. All other sources are cited. I’m just a volunteer maintaining this website, please reach out if any information needs to be updated or fact checked.
 
-Last edited: December 19, 2024
+Website will soon be updated with info for Canada, and translated in spanish.
 
----
-
-## Numbers (Page)
-
-This information is live updated. (infographic live synced w cdc data)  
-(number of human cases: confirmed by animal infection, human to human, unknown)
-
-
-
-
-Last edited: December 19, 2024  
+Last edited:

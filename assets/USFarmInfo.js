@@ -24,6 +24,12 @@ function initMap(containerId1,containerId2, dataURL) {
             console.log("Map Data:", map.options.data);
             map.svg.selectAll('.datamaps-subunit').on('click', function(geo, data) {
                 console.log("Clicked Data:", data);
+                // Reset fill color for all states
+                map.svg.selectAll('.datamaps-subunit').style('fill', defaultFill);
+
+                // Highlight the clicked state
+                d3.select(this).style('fill', '#bada55');
+
                 var deptAgLink = data && data.deptAg ? `<a href='${data.deptAg}' target="_blank">Department of Agriculture</a>` : 'No Department of Agriculture link available';
                 var additionalInfo = data && data.info ? `<p>${data.info}</p>` : "<p>No additional information available.</p>";
                 document.getElementById(containerId2).innerHTML = `
