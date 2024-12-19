@@ -16,3 +16,11 @@ United States, General
 * A free biosecurity kit is available for dairy farms: https://www.centerfordairyexcellence.org/request-an-everyday-biosecurity-kit/  
 * There is free support available to improve your farms cybersecurity and operational systems. Please contact ISAC : https://www.isac.bio/post/update-hpai-h5n1-avian-influenza-2024
 
+<div id="container1" style="width: 100%; height: 500px;"></div>
+<div id="container2"></div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        initializeMap('container1', 'container2');
+    });
+</script>
