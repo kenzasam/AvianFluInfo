@@ -55,6 +55,9 @@
       </section>
       <section> 
         {% if page.script %}
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="http://d3js.org/topojson.v1.min.js"></script>
+        <script src="/assets/datamaps.usa.min.js"></script>
         <script src="{{ page.script }}"></script>
          {% endif %}
          
