@@ -25,7 +25,7 @@ function initMap(containerId1,containerId2, dataURL) {
             map.svg.selectAll('.datamaps-subunit').on('click', function(geo, data) {
                 console.log("Clicked Data:", data);
                 // Reset fill color for all states
-                map.svg.selectAll('.datamaps-subunit').style('fill', defaultFill);
+                map.svg.selectAll('.datamaps-subunit').style('fill', '');
 
                 // Highlight the clicked state
                 d3.select(this).style('fill', '#bada55');

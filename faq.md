@@ -3,8 +3,6 @@ layout: default
 title: FAQ
 ---
 
-# FAQ
-
 ## For the general public
 
 * What are we currently doing to combat the spread of bird flu?  
@@ -20,6 +18,7 @@ title: FAQ
   * If you find dead animals:
 
 ## For researchers and the scientific community
+* NA
 
 ## For farm workers and farmers working with cattle, swine and poultry
 
