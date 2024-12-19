@@ -1,85 +1,72 @@
 {
     "AZ": { 
         "pos":0,
-        "fillKey": "Republican",
         "deptAg": "",
         "info": ""
     },
   "CO": {
       "pos":0,
-      "fillKey": "Light Democrat",
       "deptAg": "https://ag.colorado.gov/animal-health/reportable-diseases/avian-influenza/highly-pathogenic-avian-influenza-hpai-outbreak",
-      "info": "The Colorado Dept of Agriculture provides up to 4 weeks of Free PPE to your farm workers. Order can be filled here https://docs.google.com/forms/d/e/1FAIpQLSeuTInfC_wO084NERUUsDm8GZ_Cax-_soYHAkfyUuXOpYeTHA/viewform?vc=0&c=0&w=1&flr=0).  
-. Obligatory testing: All CDPHE-licensed dairy cow farms in the state of Colorado must submit weekly bulk-tank samples for testing"
+      "info": "The Colorado Dept of Agriculture provides up to 4 weeks of Free PPE to your farm workers. Order can be filled here https://docs.google.com/forms/d/e/1FAIpQLSeuTInfC_wO084NERUUsDm8GZ_Cax-_soYHAkfyUuXOpYeTHA/viewform?vc=0&c=0&w=1&flr=0). Obligatory testing: All CDPHE-licensed dairy cow farms in the state of Colorado must submit weekly bulk-tank samples for testing"
     },
   "DE": {
-    "pos":0,
-      "fillKey": "Democrat",
+      "pos":0,
       "deptAg": "https://agriculture.delaware.gov/poultry-animal-health/avian-influenza/",
-      "info": ""
+      "info": "If you have sick or dead birds, call 302-698-4507. The staff at the Delaware Department of Agriculture can make sure your birds get tested so you know why they are sick."
   },
   "FL": {
-    "pos":0,
-      "fillKey": "UNDECIDED",
-      "deptAg": "5",
-      "info": ""
+      "pos":0,
+      "deptAg": "https://www.fdacs.gov/Consumer-Resources/Animals/Animal-Diseases/Avian-Influenza",
+      "info": "Report unusual sickness or die-offs in domestic poultry to FDACS at (850) 410-0900 (during office hours) or 1-800-342-5869 (after hours) or by email at RAD@FDACS.gov. Report dead wild birds to the Florida Fish and Wildlife Conservation Commission."
   },
   "GA": {
     "pos":0,
-      "fillKey": "Republican",
-      "deptAg": 32,
-      "info": ""
+      "deptAg": "https://www.agr.georgia.gov/avian-influenza",
+      "info": "If you suspect your birds have avian influenza, call the AI Hotline at (770) 766-6850. Testing is free through the gapoultrylab.org/avian-influenza-hotline/"
   },
   "HI": {
     "pos":0,
-      "fillKey": "Democrat",
-      "deptAg": 32,
-      "info": ""
+      "deptAg": "https://health.hawaii.gov/docd/disease_listing/avian-influenza/",
+      "info": "HPAI present in backyard bird flocks. Disease Reporting Line: (808) 586-4586"
   },
   "ID": {
     "pos":0,
-      "fillKey": "Republican",
-      "deptAg": 32,
-      "info": ""
+      "deptAg": "https://agri.idaho.gov/animals/animal-disease/avian-influenza/",
+      "info": "Report sick or dead domestic birds on the Avian Influenza Screen or call the ISDA at 208-332-8540. Report dead wild birds to the Idaho Department of Fish and Game"
   },
   "IL": {
     "pos":0,
-      "fillKey": "Democrat",
-      "deptAg": 32,
-      "info": ""
+      "deptAg": "https://agr.illinois.gov/animals/animalhealth/highly-pathogenic-avian-influenza.html",
+      "info": "Report sick or dead domestic/owner poultry to: The Illinois Department of Agriculture at 217-782-4944 or USDA APHIS Veterinary Services at 1-866-536-7593. Report sick or dead wild birds (5 or more) to: your local IDNR District Wildlife Biologist or USDA Wildlife Services at 1-866-487-3297"
   },
   "IN": {
     "pos":0,
-      "fillKey": "Republican",
-      "deptAg": 11,
-      "info": ""
+      "deptAg": "https://www.in.gov/boah/species-information/avianbirds/highly-pathogenic-avian-influenza/#2024_Situation_Updates",
+      "info": "Report Sick or Dead Poultry by calling 1-866-536-7593 . Report 5+ Dead Wild Birds by calling 317-233-3293 "
   },
   "IA": {
     "pos":0,
-      "fillKey": "Light Democrat",
-        "deptAg": 11,
-      "info": ""
+        "deptAg": "https://iowaagriculture.gov/animal-industry-bureau/avian-influenza",
+      "info": "It is recommended that Iowa dairy farmers enhance their biosecurity protocols and practices, communicate regularly with their herd veterinarian, and report any unusual symptoms in cattle or poultry to the Iowa Department of Agriculture and Land Stewardship at 515-281-5305. Detailed information on improving biosecurity: https://iowaagriculture.gov/animal-industry-bureau/biosecurity "
   },
   "KS": {
     "pos":0,
-      "fillKey": "Republican",
-      "deptAg": 32,
-      "info": ""
+      "deptAg": "https://www.agriculture.ks.gov/divisions-programs/division-of-animal-health/animal-diseases/highly-pathogenic-avian-influenza-hpai-detections-in-livestock",
+      "info": "Kansas Department of Agriculture can be reached at 785-564-6700. No further resources available. Reach out to USDA if sick animals are observed."
   },
   "KY": {
     "pos":0,
-      "fillKey": "Republican",
-      "deptAg": 32,
-      "info": ""
+      "deptAg": "https://www.kyagr.com/statevet/HPAI.html",
+      "info": "Please feel free to contact the Office of State Veterinarian if you have any questions or concerns, at 502-573-0282. Specific info about animal movement after the Mandatory Testing Bill, can be found here: https://www.kyagr.com/statevet/"
   },
-  "LA": {
-      "fillKey": "Republican",
-      "deptAg": 32,
-      "info": ""
+      "LA": {
+        "pos":0,
+      "deptAg": "https://www.ldaf.la.gov/",
+      "info": "Report dead or sick birds or animals to or the Louisiana Department of Agriculture and Forestry Diagnostic Lab at 318-927-3441
+"
   },
   "MD": {
     "pos":0,
-      "fillKey": "Democrat",
       "deptAg": 32,
       "info": ""
   },
@@ -180,9 +167,8 @@
       "info": ""
   },
   "RI": {
-      "fillKey": "Democrat",
-      "deptAg": 32,
-      "info": ""
+      "deptAg": "https://dem.ri.gov/natural-resources-bureau/agriculture-and-forest-environment/agriculture/animal-health/avian-influenza",
+      "info": "contact DEM at 401-222-2781 if they believe there are sick birds in their flocks. To report sick or dying domestic poultry after regular business hours, call 401-222-3070. To report sick or dying wild birds, call DEM’s Division of Fish + Wildlife at 401-789-0281. DEM encourages constituents to complete this online form in all suspected cases of HPAI infection: https://ridem.wufoo.com/forms/suspected-avian-influenza-case-report-form/"
   },
   "SC": {
       "fillKey": "Republican",
