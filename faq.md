@@ -17,8 +17,7 @@ title: FAQ
   * Fff  
 * I found (a) dead animal(s). What do I do?  
   * Do not touch the animal  
-  * If you find dead animals:  
-    * Colorado: Notify your local Colorado Parks and Wildlife office if you find three or more dead wild birds in a specific area within two weeks, or if you find sick or dead mammals.
+  * If you find dead animals:
 
 ## For researchers and the scientific community
 
