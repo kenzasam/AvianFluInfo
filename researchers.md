@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FAQ
+title: Resources for Researchers
 ---
 
 ## Information for the Scientific Community

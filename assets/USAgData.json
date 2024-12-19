@@ -162,9 +162,8 @@
       "info": ""
   },
   "PA": {
-      "fillKey": "Democrat",
-      "deptAg": 32,
-      "info": ""
+      "deptAg": "https://www.pa.gov/agencies/pda/animals/diseases/avian-influenza.html",
+      "info": "The Pennsylvania Department of Agriculture is encouraging all Pennsylvania dairies to enroll in the voluntary Lactating Dairy Cow Health Monitoring Program.  Enrolled farms will benefit by no longer being required to individually test cattle prior to interstate movement. Testing will be performed at no cost to producers. More info on the website, For questions about the program, or contact the Department at 717-307-3259 or RA-ahds@pa.gov."
   },
   "RI": {
       "deptAg": "https://dem.ri.gov/natural-resources-bureau/agriculture-and-forest-environment/agriculture/animal-health/avian-influenza",

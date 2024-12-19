@@ -1,3 +1,5 @@
 title: "Current Bird Flu outbreak resources"
 description: "Information on the 2024 Influenza A H5N1 outbreak"
-theme: minima # You can use GitHub's built-in theme or custom styles
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
