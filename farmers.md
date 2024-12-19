@@ -8,8 +8,7 @@ script: assets/USFarmInfo.js
 
 If you work with dairy cows suspected or confirmed to have avian flu and you start to feel sick, please contact your local public health department.
 
-Report dead or sick birds or animals to the USDA toll-free at 1-866-536-7593, or get in touch with your local state agriculture department. You can find more info on the map below, and you can find you state Vet [here](https://www.aphis.usda.gov/contact/animal-health?filter=report%20sick%20or%20dead%20livestock%2C%20aquatics%2C%20or%20poultry).
-
+Report dead or sick birds or animals to the USDA toll-free at 1-866-536-7593, or get in touch with your local state agriculture department. You can find more info on the map below, and [you can find you state Vet here](https://www.aphis.usda.gov/contact/animal-health?filter=report%20sick%20or%20dead%20livestock%2C%20aquatics%2C%20or%20poultry).
 
 The USDA can help producers with:
 * PPE and/or laundering
@@ -19,11 +18,12 @@ The USDA can help producers with:
 * Shipping costs for samples
 
 ## Immediate Actions for Dairy Farmers
-* Test raw (unpasteurized) milk intended for pasteurization (Federal requirement since Dec 6, 2024)
-* Report HPAI positive milk (Ferderal requirement since Dec 6, 2024)
-* Clearance required before interstate movement of cattle  (Federal requirement since April 24, 2024)
-* Improve biosecurity (Highly advised): [EN](https://nationaldairyfarm.com/wp-content/uploads/2023/09/Enhanced-Biosecurity-Prep-Guide-1.pdf) | ES
-* Track movement of your cattle using an Animal Movement Log (Highly advised): [EN]()
+1. Report dead or sick birds or animals to the USDA toll-free at 1-866-536-7593
+2. Test raw (unpasteurized) milk intended for pasteurization (Federal requirement since Dec 6, 2024)
+3. Report HPAI positive milk (Ferderal requirement since Dec 6, 2024)
+4. Get clearance before interstate movement of cattle  (Federal requirement since April 24, 2024)
+5. Improve biosecurity (Highly advised): [EN](https://nationaldairyfarm.com/wp-content/uploads/2023/09/Enhanced-Biosecurity-Prep-Guide-1.pdf) , ES
+6. Track movement of your cattle using an Animal Movement Log (Highly advised): [EN]()
 
 ## General Updates for Farm Workers
 * December 6, 2024: USDA has implemented testing requirements for raw (unpasteurized) milk intended for pasteurization and reporting requirements for HPAI positive milk [here](https://www.aphis.usda.gov/sites/default/files/20241205-federal-order-final.pdf)
@@ -42,13 +42,11 @@ The USDA can help producers with:
 * Signs, training videos, cleaning guides, in Spanish and English, [here](https://securemilksupply.org/training-materials/biosecurity/)
 
 
-
-
 <div id="container1" style="width: 100%; height: 500px;"></div>
 <div id="container2"></div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        initializeMap('container1', 'container2');
+        initMap('container1', 'container2');
     });
 </script>
