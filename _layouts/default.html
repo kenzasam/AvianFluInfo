@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% seo %}
+    <!-- SEO Meta -->
+    {% seo %}
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
+    <!-- Support for older browsers -->
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+
     {% include head-custom.html %}
   </head>
   <body>
@@ -18,7 +24,7 @@
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{ site.logo | relative_url }}" alt="Logo" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -40,28 +46,37 @@
         {% endif %}
 
         <nav>
-            <ul>
-                <li><a href="/AvianFluInfo/farmers.html">For Farmers</a></li>
-                <li><a href="/AvianFluInfo/researchers.html">For Researchers</a></li>
-                <li><a href="/AvianFluInfo/faq.html">FAQ</a></li>
-            </ul>
+          <ul>
+            <li><a href="{{ "/farmers.html" | relative_url }}">For Farmers</a></li>
+            <li><a href="{{ "/researchers.html" | relative_url }}">For Researchers</a></li>
+            <li><a href="{{ "/faq.html" | relative_url }}">FAQ</a></li>
+          </ul>
         </nav>
-        
       </header>
       <section>
         <h1>{{ page.title }}</h1>
         {{ content }}
-
       </section>
-      <section> 
-        {% if page.script %}
+
+      {% if page.script %}
+      <section>
+        <!-- Required Scripts -->
         <script src="https://d3js.org/d3.v3.min.js"></script>
         <script src="https://d3js.org/topojson.v1.min.js"></script>
-        <script src="/AvianFluInfo/assets/datamaps.usa.min.js"></script>
+        <script src="{{ "/assets/datamaps.usa.min.js" | relative_url }}"></script>
         <script src="{{ page.script }}"></script>
-         {% endif %}
-         
-        </section>
+
+        <!-- DOM Content Initialization -->
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            if (typeof initMap === 'function') {
+              initMap('container1', 'container2');
+            }
+          });
+        </script>
+      </section>
+      {% endif %}
+
       <footer>
         {% if site.github.is_project_page %}
         <p><small>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></small></p>

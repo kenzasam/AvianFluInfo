@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Farming Community Resources
-script: AvianFluInfo/assets/USFarmInfo.js
+script: /assets/USFarmInfo.js
 ---
 
 ## Information for Farm Workers
@@ -45,8 +45,4 @@ The USDA can help producers with:
 <div id="container1" style="width: 100%; height: 500px;"></div>
 <div id="container2"></div>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        initMap('container1', 'container2');
-    });
-</script>
+
