@@ -1,7 +1,7 @@
 title: "Bird Flu Info"
 description: "Resources to manage the ongoing Influenza A H5N1 outbreak"
 remote_theme: pages-themes/minimal@v0.2.0
-baseurl: "/AvanFluInfo"
+baseurl: "/AvianFluInfo"
 plugins:
   - jekyll-remote-theme
 last-modified-at:
