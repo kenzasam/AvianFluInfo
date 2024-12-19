@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Farming Community Resources
-script: assets/USFarmInfo.js
+script: AvianFluInfo/assets/USFarmInfo.js
 ---
 
 ## Information for Farm Workers
