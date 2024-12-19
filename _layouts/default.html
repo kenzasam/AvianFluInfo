@@ -70,7 +70,7 @@
         <script>
           document.addEventListener("DOMContentLoaded", function() {
             if (typeof initMap === 'function') {
-              initMap('container1', 'container2', '/AvianFluInfo/assets/USAgData.json');
+              initMap('container1', 'container2', '{{ "/assets/USAgData.json" | relative_url }}');
             }
           });
         </script>
