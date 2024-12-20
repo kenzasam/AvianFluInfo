@@ -1,0 +1,18 @@
+<!-- example of real time updated map w jQuery: https://gist.github.com/markmarkoh/4127667 -->
+<section id="map-section" style="position: relative;">
+    <div id="container1" style="width: 100%; height: 100%;"></div>
+    <div id="container2" style="margin-top: 20px;"></div>
+</section>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="{{ "/assets/datamaps.usa.min.js" | relative_url }}"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      if (typeof initMap === 'function') {
+        initMap('container1', 'container2', '{{ "/assets/USAgData.json" | relative_url }}');
+      }
+    });
+    document.addEventListener('resize', function() {
+      initMap.resize();
+    });
+</script>
