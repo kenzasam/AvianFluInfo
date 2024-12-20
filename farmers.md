@@ -24,7 +24,7 @@ The USDA can help producers with:
 
 ## State Specific Information
 
-{% include assets/USDAMapSnippet.html %}
+{% include USDAMapSnippet.html %}
 
 ## General Updates for Farm Workers
 * December 6, 2024: USDA has implemented testing requirements for raw (unpasteurized) milk intended for pasteurization and reporting requirements for HPAI positive milk [here](https://www.aphis.usda.gov/sites/default/files/20241205-federal-order-final.pdf)
