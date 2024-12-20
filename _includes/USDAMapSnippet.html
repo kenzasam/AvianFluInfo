@@ -2,6 +2,7 @@
 <section id="map-section" style="position: relative;">
     <div id="container1" style="width: 100%; height: 100%;"></div>
     <div id="container2" style="margin-top: 20px;"></div>
+    <div id="container2">Select a state to see detailed information.</div>
 </section>
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script src="https://d3js.org/topojson.v1.min.js"></script>
@@ -12,6 +13,12 @@ function initMap(containerId1,containerId2, dataURL) {
       scope: 'usa',
       element: document.getElementById(containerId1),
       responsive: true,
+      dataUrl: dataURL,
+      dataType: 'json',
+      data:{},
+      fills: {
+          defaultFill: '#EDDC4E'
+      },
       geographyConfig: {
           highlightBorderColor: '#bada55',
           highlightBorderWidth: 3,
@@ -21,12 +28,6 @@ function initMap(containerId1,containerId2, dataURL) {
           }
           return `<div class="hoverinfo">${geo.properties.name}: No Department of Agriculture link available</div>`;
           }
-      },
-      dataUrl: dataURL,
-      dataType: 'json',
-      data:{},
-      fills: {
-          defaultFill: '#EDDC4E'
       },
       done: function(map) {
           console.log("Map Data:", map.options.data);
@@ -40,8 +41,12 @@ function initMap(containerId1,containerId2, dataURL) {
               // Highlight the clicked state
               d3.select(this).style('fill', '#bada55');
 
-              var deptAgLink = data && data.deptAg ? `<a href='${data.deptAg}' target="_blank">Department of Agriculture</a>` : 'No Department of Agriculture link available';
-              var additionalInfo = data && data.info ? `<p>${data.info}</p>` : "<p>No additional information available.</p>";
+              // Display data in container2
+              var stateData = map.options.data[geo.id] || {};
+              var deptAgLink = stateData.deptAg 
+                ? `<a href='${data.deptAg}' target="_blank">Department of Agriculture</a>` : 'No Department of Agriculture link available';
+              var additionalInfo = stateData.info 
+                ? `<p>${data.info}</p>` : "<p>No additional information available.</p>";
               document.getElementById(containerId2).innerHTML = `
                   <h3>${geo.properties.name}</h3>
                   ${deptAgLink}
