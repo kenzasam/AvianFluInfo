@@ -2,6 +2,7 @@ function initMap(containerId1,containerId2, dataURL) {
     var map = new Datamap({
         scope: 'usa',
         element: document.getElementById(containerId1),
+        responsive: true,
         geographyConfig: {
             highlightBorderColor: '#bada55',
             highlightBorderWidth: 3,

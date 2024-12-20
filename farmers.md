@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Farming Community Resources
-script: /assets/USFarmInfo.js
+script: 
 ---
 
 You can find guidance your state on the map below, and [you can find you state Vet here](https://www.aphis.usda.gov/contact/animal-health?filter=report%20sick%20or%20dead%20livestock%2C%20aquatics%2C%20or%20poultry).
@@ -24,10 +24,7 @@ The USDA can help producers with:
 
 ## State Specific Information
 
-<section id="map-section" style="position: relative; width: 100%; height: 600px;">
-    <div id="container1" style="width: 100%; height: 100%;"></div>
-    <div id="container2" style="margin-top: 20px;"></div>
-</section>
+{% include assets/USDAMapSnippet.html %}
 
 ## General Updates for Farm Workers
 * December 6, 2024: USDA has implemented testing requirements for raw (unpasteurized) milk intended for pasteurization and reporting requirements for HPAI positive milk [here](https://www.aphis.usda.gov/sites/default/files/20241205-federal-order-final.pdf)
