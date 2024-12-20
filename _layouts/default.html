@@ -10,6 +10,19 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+        /* Reset inherited styles */
+        #map-section * {
+            all: unset;
+        }
+
+        /* Reapply needed styles for map */
+        #map-section * {
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+    </style>
 
     <!-- Support for older browsers -->
     <!--[if lt IE 9]>
@@ -56,16 +69,12 @@
       <section>
         <h1>{{ page.title }}</h1>
         {{ content }}
-      </section>
-
-      {% if page.script %}
-      <section>
+        {% if page.script %}
         <!-- Required Scripts -->
         <script src="https://d3js.org/d3.v3.min.js"></script>
         <script src="https://d3js.org/topojson.v1.min.js"></script>
         <script src="{{ "/assets/datamaps.usa.min.js" | relative_url }}"></script>
         <script src="{{ page.script | relative_url }}"></script>
-
         <!-- DOM Content Initialization -->
         <script>
           document.addEventListener("DOMContentLoaded", function() {

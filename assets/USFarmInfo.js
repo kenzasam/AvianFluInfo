@@ -16,8 +16,6 @@ function initMap(containerId1,containerId2, dataURL) {
         dataType: 'json',
         data:{},
         fills: {
-            'High': '#CA5E5B',
-            'Medium High': '#EAA9A8',
             defaultFill: '#EDDC4E'
         },
         done: function(map) {
