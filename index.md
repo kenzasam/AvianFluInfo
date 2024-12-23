@@ -1,46 +1,43 @@
 ---
 layout: default
-title: H5N1 Outbreak Resources
+title: Farming Community Resources
 ---
 
-## About Bird Flu
+You can find guidance your state on the map below, and [you can find you state Vet here](https://www.aphis.usda.gov/contact/animal-health?filter=report%20sick%20or%20dead%20livestock%2C%20aquatics%2C%20or%20poultry).
 
-Bird Flu, also called Avian Influenza, is a disease caused by a flu virus. Highly Pathogenic Avian Influenza (HPAI), is specifically caused by an Influenza A virus subtype called H5N1, which has high mortality. The United States has an ongoing outbreak of H5N1, which started in 2022.
+The USDA can help producers with:
+* PPE and/or laundering
+* Biosecurity planning and implementation
+* Heat treatment for waste milk
+* Veterinarian costs
+* Shipping costs for samples
 
-Avian flu is a virus that naturally spreads amongst wild birds. It can also infect poultry and other kinds of animals, like mammals, including cows and humans. Interspecies transmission beyond birds is not well studied.
+## Immediate Actions for Dairy Farmers
+1. If you work with dairy cows suspected or confirmed to have avian flu and you start to feel sick, please contact your local public health department.
+2. Report dead or sick birds or animals to the USDA toll-free at 1-866-536-7593
+3. Test raw (unpasteurized) milk intended for pasteurization (Federal requirement since Dec 6, 2024)
+4. Report HPAI positive milk (Ferderal requirement since Dec 6, 2024)
+5. Get clearance before interstate movement of cattle  (Federal requirement since April 24, 2024)
+6. Improve biosecurity (Highly advised): [EN](https://nationaldairyfarm.com/wp-content/uploads/2023/09/Enhanced-Biosecurity-Prep-Guide-1.pdf) , ES
+7. Track movement of your cattle using an Animal Movement Log (Highly advised): [EN]()
 
-## Risk
+## State Specific Information
 
-### Risk to animals  
-Avian influenza has a high mortality rate in ... 
+{% include USDAMapSnippet.html %}
 
-### Risk to humans  
-Avian flu can infect humans through animal exposure (feces and body fluids, like blood, mucus, and saliva) or exposure to highly contaminated environments. Infected people may not develop any symptoms and others may develop mild ones. Early symptoms in people can include cough, high fever, shortness of breath, muscle aches, and headache. In severe cases, pneumonia, seizures, a changed mental state or death can occur. Of the human cases between 2003 and 2024, mortality rate has been 52% (source). Numbers on the current outbreak can be found below.
+## General Updates for Farm Workers
+* December 6, 2024: USDA has implemented testing requirements for raw (unpasteurized) milk intended for pasteurization and reporting requirements for HPAI positive milk [here](https://www.aphis.usda.gov/sites/default/files/20241205-federal-order-final.pdf)
+* April 24, 2024: USDA has implemented testing requirements for the interstate movement of lactating dairy cattle in an effort to contain the spread of disease.  The order can be found on USDA’s website [here](https://www.aphis.usda.gov/sites/default/files/dairy-federal-order.pdf)
+* The USDA provides [financial assistance](https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/livestock/financial-assistance) for milk testing, PPE, offset for milk loss, and other biosecurity measures.  
+* There is [free technical support available to improve your farms cybersecurity](https://www.isac.bio/post/update-hpai-h5n1-avian-influenza-2024) and operational systems. Please contact ISAC.
+* Some states offer free PPE (colorado)
 
-Currently there has not been any detection of human-to-human transmission. However, small mutations (e.g. a single mutation as documented here) can turn the virus transmissible between humans and highly pandemic potential.
+## Additional Resources for Poultry
+* [Penn State Extension: Poultry Houses – Biosecurity](https://extension.psu.edu/poultry-houses-biosecurity)
+* [Penn State Extension: Biosecurity: Protecting Your Birds from Disease](https://extension.psu.edu/biosecurity-protecting-your-birds-from-disease)
+* [Penn State Extension: National Poultry Improvement Plan (NPIP) Biosecurity Planning](https://extension.psu.edu/national-poultry-improvement-plan-npip-biosecurity-planning)
+* [Penn State Extension: Creating a Poultry Flock Plan](https://extension.psu.edu/creating-a-poultry-flock-plan)
 
-The CDC is actively monitoring the situation. The risk for the public is listed as Low.
-
-People with increased risk of exposure to novel influenza A viruses associated with disease in humans: Waterfowl hunters, poultry workers, backyard bird flock owners, livestock farmers, and livestock workers. Livestock workers with cattle are currently a primary concern. The USDA is monitoring and assisting these workers.
-
-## Biosecurity
-
-### Countermeasures and surveillance 
-* There are vaccines available in the case of an outbreak in the national stockpile (source). The efficacy of the bird flu vaccines against HPAI is unknown.   
-* There are antivirals and treatments available that work for other Influenza A subtypes.
-* CDC performs H5N1 specific surveillance (human) through its influenza A diseae surveillance program, and testing humans exposed to infected animals.
-* USDA performs H5N1 specific surveillance (animal) by milk testing,   
-
-
-### General Precautions
-Avoid direct contact with wild birds and observe them only from a distance. Wild birds can have avian flu even if they don’t look sick. Do not touch sick or dead animals, or surfaces contaminated with animal feces, if possible. Avoid tracking those materials home or to backyard flocks on boots and other items.
- 
-[CDC guidance for precautions](https://www.cdc.gov/bird-flu/prevention/worker-protection-ppe.html)
-
-## About this website
-
-This website contains information pulled from the CDC, USDA, and local state authorities. All other sources are cited. I’m just a volunteer maintaining this website, please reach out if any information needs to be updated or fact checked.
-
-Website will soon be updated with info for Canada, and translated in spanish.
-
-Last edited:
+## Additional Resources for Dairy
+* Request a free biosecurity kit sent to you [here](https://www.centerfordairyexcellence.org/request-an-everyday-biosecurity-kit/)
+* Signs, training videos, cleaning guides, in Spanish and English, [here](https://securemilksupply.org/training-materials/biosecurity/)
