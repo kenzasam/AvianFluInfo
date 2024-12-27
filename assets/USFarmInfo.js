@@ -21,10 +21,15 @@ function initMap(containerId1,containerId2, dataURL) {
         },
         done: function(map) {
             console.log("Map Data:", map.options.data);
+            //
+            map.svg.selectAll('.datamaps-subunit').style('fill', function () {
+                return map.options.fills.defaultFill;
+            });
+
             map.svg.selectAll('.datamaps-subunit').on('click', function(geo, data) {
                 console.log("Clicked Data:", data);
                 // Reset fill color for all states
-                map.svg.selectAll('.datamaps-subunit').style('fill', function () {
+                map.svg.selectAll('.datamaps-subunit').style('fill', function (d) {
                     return map.options.fills.defaultFill; // Reset to the defaultFill color
                 });
 

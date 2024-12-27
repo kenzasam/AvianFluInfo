@@ -1,0 +1,17 @@
+#map-section 
+.datamaps-subunit {
+    fill: #EDDC4E !important; /* Default fill color */
+    stroke: #ffffff; /* Optional: Add white borders */
+    stroke-width: 1px;
+}
+
+.datamaps-hoverover {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    z-index: 1000;
+    pointer-events: none;
+    transform: translate(-50%, -100%);
+}

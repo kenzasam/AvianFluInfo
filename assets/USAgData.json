@@ -66,78 +66,78 @@
   },
   "MD": {
     "pos":0,
-      "deptAg": 32,
+      "deptAg": "",
       "info": ""
   },
   "ME": {
     "pos":0,
       "fillKey": "Democrat",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "MA": {
       "fillKey": "Democrat",
-      "deptAg": 32,
+      "deptAg": "",
       "info": ""
   },
   "MN": {
       "fillKey": "Democrat",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "MI": {
       "fillKey": "Democrat",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "MS": {
       "fillKey": "Republican",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "MO": {
       "fillKey": "Republican",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "MT": {
       "fillKey": "Republican",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "NC": {
       "fillKey": "Light Republican",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "NE": {
       "fillKey": "Republican",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "NV": {
       "fillKey": "Heavy Democrat",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "NH": {
       "fillKey": "Light Democrat",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "NJ": {
       "fillKey": "Democrat",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "NY": {
       "fillKey": "Democrat",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "ND": {
       "fillKey": "Republican",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "NM": {
@@ -170,17 +170,17 @@
   },
   "SD": {
       "fillKey": "Republican",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "TN": {
       "fillKey": "Republican",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "TX": {
       "fillKey": "Republican",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "UT": {
@@ -190,37 +190,37 @@
   },
   "WI": {
       "fillKey": "Democrat",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "VA": {
       "fillKey": "Light Democrat",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "VT": {
       "fillKey": "Democrat",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "WA": {
       "fillKey": "Democrat",
-      "deptAg": 32,
+      "deptAg": "",
       "info": ""
   },
   "WV": {
       "fillKey": "Republican",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "WY": {
       "fillKey": "Republican",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "CA": {
       "fillKey": "Democrat",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "CT": {
@@ -235,7 +235,7 @@
   },
   "AR": {
       "fillKey": "Republican",
-      "deptAg": 32,
+      "deptAg": "32",
       "info": ""
   },
   "AL": {

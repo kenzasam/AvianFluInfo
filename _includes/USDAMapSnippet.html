@@ -66,7 +66,7 @@ function initMap(containerId1,containerId2, dataURL) {
       console.log("Map Initialized");
     }
   });
-  document.addEventListener('resize', function() {
-    initMap.resize();
+  window.addEventListener('resize', function() {
+    map.resize();
   });
 </script>
