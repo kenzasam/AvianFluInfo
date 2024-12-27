@@ -24,12 +24,6 @@ function initMap(containerId1,containerId2, dataURL) {
           highlightBorderColor: '#bada55',
           highlightBorderWidth: 3,
           popupOnHover: false
-          // popupTemplate: function(geo, data) {
-          //    if (data && data.deptAg) {
-           //   return `<div class="hoverinfo">${geo.properties.name} <a href='${data.deptAg}' target="_blank">Department of Agriculture</a></div>`;
-          //}
-          //return `<div class="hoverinfo">${geo.properties.name}: No Department of Agriculture link available</div>`;
-          }
       },
       done: function(map) {
           console.log("Map Data:", map.options.data);
@@ -58,7 +52,7 @@ function initMap(containerId1,containerId2, dataURL) {
                   ${deptAgLink}
                   ${additionalInfo}
               `;
-      });
+          });
       }
       });
   map.labels();
