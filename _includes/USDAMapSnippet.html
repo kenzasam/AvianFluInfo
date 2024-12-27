@@ -8,6 +8,7 @@
 <script src="https://d3js.org/topojson.v1.min.js"></script>
 <script src="{{ "/assets/datamaps.usa.min.js" | relative_url }}"></script>
 <script>
+var map;
 function initMap(containerId1,containerId2, dataURL) {   
   var map = new Datamap({
       scope: 'usa',
@@ -22,17 +23,23 @@ function initMap(containerId1,containerId2, dataURL) {
       geographyConfig: {
           highlightBorderColor: '#bada55',
           highlightBorderWidth: 3,
-          popupTemplate: function(geo, data) {
-              if (data && data.deptAg) {
-              return `<div class="hoverinfo">${geo.properties.name} <a href='${data.deptAg}' target="_blank">Department of Agriculture</a></div>`;
-          }
-          return `<div class="hoverinfo">${geo.properties.name}: No Department of Agriculture link available</div>`;
+          popupOnHover: false
+          // popupTemplate: function(geo, data) {
+          //    if (data && data.deptAg) {
+           //   return `<div class="hoverinfo">${geo.properties.name} <a href='${data.deptAg}' target="_blank">Department of Agriculture</a></div>`;
+          //}
+          //return `<div class="hoverinfo">${geo.properties.name}: No Department of Agriculture link available</div>`;
           }
       },
       done: function(map) {
           console.log("Map Data:", map.options.data);
           map.svg.selectAll('.datamaps-subunit').on('click', function(geo, data) {
+              console.log("Clicked Geo ID:", geo.id);
               console.log("Clicked Data:", data);
+              console.log("Clicked Data Object from map.options.data:", map.options.data[geo.id]);
+              // Retrieve the state data
+              const stateData = map.options.data[geo.id] || {};
+              console.log("State Data:", stateData);
               // Reset fill color for all states
               map.svg.selectAll('.datamaps-subunit').style('fill', function () {
                   return map.options.fills.defaultFill; // Reset to the defaultFill color
@@ -42,7 +49,6 @@ function initMap(containerId1,containerId2, dataURL) {
               d3.select(this).style('fill', '#bada55');
 
               // Display data in container2
-              var stateData = map.options.data[geo.id] || {};
               var deptAgLink = stateData.deptAg 
                 ? `<a href='${data.deptAg}' target="_blank">Department of Agriculture</a>` : 'No Department of Agriculture link available';
               var additionalInfo = stateData.info 
@@ -56,7 +62,7 @@ function initMap(containerId1,containerId2, dataURL) {
       }
       });
   map.labels();
-}</script>
+} </script>
 <script>
   console.log("USDAMapSnippet.html is loaded.");
   document.addEventListener("DOMContentLoaded", function() {
