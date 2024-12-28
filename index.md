@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Farming Community Resources
+title: Animal Industry Resources
 ---
 
-You can find guidance for your state on the map below, and [you can find you state Vet here](https://www.aphis.usda.gov/contact/animal-health?filter=report%20sick%20or%20dead%20livestock%2C%20aquatics%2C%20or%20poultry).
+Resources for animal industry, farmers, backyard flock owners, hunters, and pet owners. You can find guidance for your state on the map below, and [you can find you state Vet here](https://www.aphis.usda.gov/contact/animal-health?filter=report%20sick%20or%20dead%20livestock%2C%20aquatics%2C%20or%20poultry).
 
-The USDA can help producers with:
+The [USDA](https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza) can help producers with:
 * PPE and/or laundering
 * Biosecurity planning and implementation
 * Heat treatment for waste milk
@@ -32,12 +32,30 @@ The USDA can help producers with:
 * There is [free technical support available to improve your farms cybersecurity](https://www.isac.bio/post/update-hpai-h5n1-avian-influenza-2024) and operational systems. Please contact ISAC.
 * Some states offer free PPE (colorado)
 
-## Additional Resources for Poultry
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e1Ar8IqXb9Y" title="Guía de Influenza A(H5N1) para Trabajadores de Granjas Lecheras y Avícolas." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Additional Resources for Poultry farmers
 * [Penn State Extension: Poultry Houses – Biosecurity](https://extension.psu.edu/poultry-houses-biosecurity)
 * [Penn State Extension: Biosecurity: Protecting Your Birds from Disease](https://extension.psu.edu/biosecurity-protecting-your-birds-from-disease)
 * [Penn State Extension: National Poultry Improvement Plan (NPIP) Biosecurity Planning](https://extension.psu.edu/national-poultry-improvement-plan-npip-biosecurity-planning)
 * [Penn State Extension: Creating a Poultry Flock Plan](https://extension.psu.edu/creating-a-poultry-flock-plan)
 
-## Additional Resources for Dairy
+## Additional Resources for Dairy farmers
 * Request a *free biosecurity kit* sent to you [here](https://www.centerfordairyexcellence.org/request-an-everyday-biosecurity-kit/)
 * Signs, training videos, cleaning guides, in Spanish and English, [here](https://securemilksupply.org/training-materials/biosecurity/)
+
+## Additional Resources for backyard flock owners
+* [CDC's guidance](https://www.cdc.gov/bird-flu/caring/)
+
+## Additional Resources for wildlife managers and Hunters
+* [Highly Pathogenic Avian Influenza (HPAI): What You Need to Know if You are a Hunter (PDF)](https://www.health.state.mn.us/diseases/flu/current/healthinfohunter.pdf)
+* [Health Information for People in Contact with Avian Influenza A(H5N1) Positive Wildlife (PDF)](https://www.health.state.mn.us/diseases/flu/current/healthinfowild.pdf)
+
+## Additional Resources for pet owners
+* Influenza A(H5N1) Infection has caused the death of domestic cats and zoo animals (mountain lion, cheetah) in 2024. The cause was likely unpasteurized milk.
+* [Influenza A(H5N1) Infection in Companion Animals: Guidance for Veterinary Clinics from the Minnesota Department of Health and the Board of Animal Health (PDF)](https://www.health.state.mn.us/diseases/flu/current/factsheetforfetclinics.pdf)
+
+
+## Current Data
+
+<script type='module' src='https://publicdashboards.dl.usda.gov/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://publicdashboards.dl.usda.gov/t/MRP_PUB/views/VS_Avian_HPAIConfirmedDetections2022/HPAI2022ConfirmedDetections' width='850' height='1727' hide-tabs toolbar='bottom' ></tableau-viz>
