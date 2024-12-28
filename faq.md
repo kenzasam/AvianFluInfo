@@ -15,7 +15,7 @@ title: FAQ
   * Fff  
 * I found (a) dead animal(s). What do I do?  
   * Do not touch the animal  
-  * If you find dead animals:
+  * If you find dead wild animals, contact your state fish and wildlife service
 
 ## For researchers and the scientific community
 * NA
@@ -23,11 +23,12 @@ title: FAQ
 ## For farm workers and farmers working with cattle, swine and poultry
 
 * I think my herd is sick. What do I do?  
-  * Colorado: If you have questions about sick or dead animals on the farm, ask your farm manager and herd veterinarian. Immediately contact and report disease to the State Veterinarian’s office by calling 303-869-9130 or using the reportable disease case report form.  
+  * Call the USDA
+  * Please consult our map to find state specific resources. 
 * I think I am sick. What do I do?  
-  * Colorado: call CDPHE at 303-692-2700 (after normal business hours: 303-370-9395). The Department can help you get a flu test and medicine if you need it.  
+  * .
 * I want to implement practices to safeguard my herd. Where can I find more information?  
-  * US: Contact your local state vet:  
+  * Contact your local state vet. Several states offer free PPE and help with improving your farm's biosecurity.
 * I want to implement practices to safeguard my workers. Where can I find more information?  
   * Contact your local state vet:  
   * Implement the CDC recommended guidelines  

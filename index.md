@@ -3,7 +3,7 @@ layout: default
 title: Farming Community Resources
 ---
 
-You can find guidance your state on the map below, and [you can find you state Vet here](https://www.aphis.usda.gov/contact/animal-health?filter=report%20sick%20or%20dead%20livestock%2C%20aquatics%2C%20or%20poultry).
+You can find guidance for your state on the map below, and [you can find you state Vet here](https://www.aphis.usda.gov/contact/animal-health?filter=report%20sick%20or%20dead%20livestock%2C%20aquatics%2C%20or%20poultry).
 
 The USDA can help producers with:
 * PPE and/or laundering
@@ -39,5 +39,5 @@ The USDA can help producers with:
 * [Penn State Extension: Creating a Poultry Flock Plan](https://extension.psu.edu/creating-a-poultry-flock-plan)
 
 ## Additional Resources for Dairy
-* Request a free biosecurity kit sent to you [here](https://www.centerfordairyexcellence.org/request-an-everyday-biosecurity-kit/)
+* Request a *free biosecurity kit* sent to you [here](https://www.centerfordairyexcellence.org/request-an-everyday-biosecurity-kit/)
 * Signs, training videos, cleaning guides, in Spanish and English, [here](https://securemilksupply.org/training-materials/biosecurity/)

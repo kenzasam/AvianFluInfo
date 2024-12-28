@@ -12,10 +12,10 @@ Avian flu is a virus that naturally spreads amongst wild birds. It can also infe
 ## Risk
 
 ### Risk to animals  
-Avian influenza has a high mortality rate in ... 
+Avian influenza caued by strain H5N1 has a high mortality rate.
 
 ### Risk to humans  
-Avian flu can infect humans through animal exposure (feces and body fluids, like blood, mucus, and saliva) or exposure to highly contaminated environments. Infected people may not develop any symptoms and others may develop mild ones. Early symptoms in people can include cough, high fever, shortness of breath, muscle aches, and headache. In severe cases, pneumonia, seizures, a changed mental state or death can occur. Of the human cases between 2003 and 2024, mortality rate has been 52% (source). Numbers on the current outbreak can be found below.
+Avian flu can infect humans through animal exposure (feces and body fluids, like blood, mucus, and saliva) or exposure to highly contaminated environments. Infected people may not develop any symptoms and others may develop mild ones. Early symptoms in people can include cough, high fever, shortness of breath, muscle aches, and headache. In severe cases, pneumonia, seizures, a changed mental state or death can occur. Of the human cases (H5N1) between 2003 and 2024, mortality rate has been 52% (source).
 
 Currently there has not been any detection of human-to-human transmission. However, small mutations (e.g. a single mutation as documented here) can turn the virus transmissible between humans and highly pandemic potential.
 
@@ -40,7 +40,3 @@ Avoid direct contact with wild birds and observe them only from a distance. Wild
 ## About this website
 
 This website contains information pulled from the CDC, USDA, and local state authorities. All other sources are cited. I’m just a volunteer maintaining this website, please reach out if any information needs to be updated or fact checked.
-
-Website will soon be updated with info for Canada, and translated in spanish.
-
-Last edited:

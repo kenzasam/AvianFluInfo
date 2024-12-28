@@ -27,10 +27,8 @@ function initMap(containerId1,containerId2, dataURL) {
       },
       done: function(map) {
           console.log("Map Data:", map.options.data);
-          map.svg.selectAll('.datamaps-subunit').on('click', function(geo, data) {
+          map.svg.selectAll('.datamaps-subunit').on('click', function(geo) {
               console.log("Clicked Geo ID:", geo.id);
-              console.log("Clicked Data:", data);
-              console.log("Clicked Data Object from map.options.data:", map.options.data[geo.id]);
               // Retrieve the state data
               const stateData = map.options.data[geo.id] || {};
               console.log("State Data:", stateData);
@@ -38,15 +36,14 @@ function initMap(containerId1,containerId2, dataURL) {
               map.svg.selectAll('.datamaps-subunit').style('fill', function () {
                   return map.options.fills.defaultFill; // Reset to the defaultFill color
               });
-
               // Highlight the clicked state
               d3.select(this).style('fill', '#bada55');
-
               // Display data in container2
               var deptAgLink = stateData.deptAg 
-                ? `<a href='${data.deptAg}' target="_blank">Department of Agriculture</a>` : 'No Department of Agriculture link available';
+                ? `<a href='${stateData.deptAg }' target="_blank">Department of Agriculture</a>` : 'No Department of Agriculture link available';
               var additionalInfo = stateData.info 
-                ? `<p>${data.info}</p>` : "<p>No additional information available.</p>";
+                ? `<p>${stateData.info}</p>` : "<p>No additional information available.</p>";
+              //update container 2
               document.getElementById(containerId2).innerHTML = `
                   <h3>${geo.properties.name}</h3>
                   ${deptAgLink}
