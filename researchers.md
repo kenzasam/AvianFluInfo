@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Scientific Community Resources
+title: For Reseachers and the Scientific Community
 ---
 
 ## Other data

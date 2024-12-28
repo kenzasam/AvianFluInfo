@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Animal Industry Resources
+title: For people working with animals
 ---
 
 Resources for animal industry, farmers, backyard flock owners, hunters, and pet owners. You can find guidance for your state on the map below, and [you can find you state Vet here](https://www.aphis.usda.gov/contact/animal-health?filter=report%20sick%20or%20dead%20livestock%2C%20aquatics%2C%20or%20poultry).
@@ -54,8 +54,3 @@ The [USDA](https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-infl
 ## Additional Resources for pet owners
 * Influenza A(H5N1) Infection has caused the death of domestic cats and zoo animals (mountain lion, cheetah) in 2024. The cause was likely unpasteurized milk.
 * [Influenza A(H5N1) Infection in Companion Animals: Guidance for Veterinary Clinics from the Minnesota Department of Health and the Board of Animal Health (PDF)](https://www.health.state.mn.us/diseases/flu/current/factsheetforfetclinics.pdf)
-
-
-## Current Data
-
-<script type='module' src='https://publicdashboards.dl.usda.gov/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://publicdashboards.dl.usda.gov/t/MRP_PUB/views/VS_Avian_HPAIConfirmedDetections2022/HPAI2022ConfirmedDetections' width='850' height='1727' hide-tabs toolbar='bottom' ></tableau-viz>
