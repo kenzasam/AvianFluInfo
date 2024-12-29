@@ -181,8 +181,8 @@
       "info": ""
   },
   "CA": {
-      "deptAg": "",
-      "info": ""
+      "deptAg": "https://www.cdfa.ca.gov/AHFSS/Animal_Health/HPAI.html",
+      "info": "State of emergency declared. To report an unusual number of sick livestock, or if you suspect Bird Flu in your livestock, call:  1-866-922-2473 . Biosecurity resources such as those that may be found on the CDFA website for the <a href='https://www.cdfa.ca.gov/AHFSS/SecureFoodSupply.html'>Secure Food Supply Program</a>. Poultry specific information can be found <a href='https://www.cdfa.ca.gov/ahfss/Animal_Health/Avian_Influenza.html'>here,/a."
   },
   "CT": {
       "deptAg": "https://portal.ct.gov/doag/regulatory/regulatory/avian-influenza-information",
