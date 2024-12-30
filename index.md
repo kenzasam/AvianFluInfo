@@ -29,8 +29,8 @@ The [USDA](https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-infl
 * December 6, 2024: USDA has implemented testing requirements for raw (unpasteurized) milk intended for pasteurization and reporting requirements for HPAI positive milk [here](https://www.aphis.usda.gov/sites/default/files/20241205-federal-order-final.pdf)
 * April 24, 2024: USDA has implemented testing requirements for the interstate movement of lactating dairy cattle in an effort to contain the spread of disease.  The order can be found on USDA’s website [here](https://www.aphis.usda.gov/sites/default/files/dairy-federal-order.pdf)
 * The USDA provides [financial assistance](https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/livestock/financial-assistance) for milk testing, PPE, offset for milk loss, and other biosecurity measures.  
-* There is [free technical support available to improve your farms cybersecurity](https://www.isac.bio/post/update-hpai-h5n1-avian-influenza-2024) and operational systems. Please contact ISAC.
-* Some states offer free PPE (colorado)
+* There is [**free** technical support available to improve your farms cybersecurity](https://www.isac.bio/post/update-hpai-h5n1-avian-influenza-2024) and operational systems. Please contact ISAC.
+* Some states offer **free PPE** (colorado)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e1Ar8IqXb9Y" title="Guía de Influenza A(H5N1) para Trabajadores de Granjas Lecheras y Avícolas." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -41,11 +41,12 @@ The [USDA](https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-infl
 * [Penn State Extension: Creating a Poultry Flock Plan](https://extension.psu.edu/creating-a-poultry-flock-plan)
 
 ## Additional Resources for Dairy farmers
-* Request a *free biosecurity kit* sent to you [here](https://www.centerfordairyexcellence.org/request-an-everyday-biosecurity-kit/)
+* Request a **free biosecurity kit** sent to you [here](https://www.centerfordairyexcellence.org/request-an-everyday-biosecurity-kit/)
 * Signs, training videos, cleaning guides, in Spanish and English, [here](https://securemilksupply.org/training-materials/biosecurity/)
 
-## Additional Resources for backyard flock owners
-* [CDC's guidance](https://www.cdc.gov/bird-flu/caring/)
+## Additional resources for other animal farmers 
+* [CDC's guidance for backyard flock owners](https://www.cdc.gov/bird-flu/caring/)
+* [USDA guide for HPAI in Sheep, goats and camelid](https://www.aphis.usda.gov/sites/default/files/small-ruminant-camelid-h5n1-info.pdf)
 
 ## Additional Resources for wildlife managers and Hunters
 * [Highly Pathogenic Avian Influenza (HPAI): What You Need to Know if You are a Hunter (PDF)](https://www.health.state.mn.us/diseases/flu/current/healthinfohunter.pdf)

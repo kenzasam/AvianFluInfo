@@ -85,12 +85,12 @@
       "info": ""
   },
   "NC": {
-      "deptAg": "",
-      "info": ""
+      "deptAg": "https://www.ncagr.gov/divisions/veterinary/AvianInfluenza",
+      "info": "If your birds are sick or dying, report it right away with NC State Veterinary Office at 919-707-3250. After you report, a Federal or State animal health official will contact you to learn more about your flock and operation."
   },
   "NE": {
-      "deptAg": "",
-      "info": ""
+      "deptAg": "https://nda.nebraska.gov/animal/diseases/hpai_livestock/index.html",
+      "info": "NDA is issuing an importation order effective immediately. The importation order will require all breeding female dairy cattle entering the state of Nebraska to obtain a permit issued by NDA prior to entry. The importation order has been extended to December 31, 2024 and will be re-evaluated at that time. To obtain a permit, producers will need to contact NDA at 402-471-2351 "
   },
   "NV": {
       "deptAg": "",

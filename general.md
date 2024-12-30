@@ -7,14 +7,10 @@ title: General Info
 
 Bird Flu, also called Avian Influenza, is a disease caused by a flu virus. Highly Pathogenic Avian Influenza (HPAI), is specifically caused by an Influenza A virus subtype called H5N1, which has high mortality. The United States has an ongoing outbreak of H5N1, which started in 2022.
 
-Avian flu is a virus that naturally spreads amongst wild birds. It can also infect poultry and other kinds of animals, like mammals, including cows and humans. Interspecies transmission beyond birds is not well studied.
+Avian flu is caused by a virus that naturally spreads amongst wild bird populations. It can also infect poultry and other kinds of animals, like mammals, including cows, swine, and humans. Interspecies transmission beyond birds is not well studied.
 
 ## Risk
-
-### Risk to animals  
-Avian influenza caued by strain H5N1 has a high mortality rate.
-
-### Risk to humans  
+Avian influenza caused by strain H5N1 has a high mortality rate in animals, especially poultry.
 Avian flu can infect humans through animal exposure (feces and body fluids, like blood, mucus, and saliva) or exposure to highly contaminated environments. Infected people may not develop any symptoms and others may develop mild ones. Early symptoms in people can include cough, high fever, shortness of breath, muscle aches, and headache. In severe cases, pneumonia, seizures, a changed mental state or death can occur. Of the human cases (H5N1) between 2003 and 2024, mortality rate has been 52% (source).
 
 Currently there has not been any detection of human-to-human transmission. However, small mutations (e.g. a single mutation as documented here) can turn the virus transmissible between humans and highly pandemic potential.
@@ -26,10 +22,11 @@ People with increased risk of exposure to novel influenza A viruses associated w
 ## Biosecurity
 
 ### Countermeasures and surveillance 
-* There are vaccines available in the case of an outbreak in the national stockpile (source). The efficacy of the bird flu vaccines against HPAI is unknown.   
-* There are antivirals and treatments available that work for other Influenza A subtypes.
+* There are vaccines available in the case of an outbreak. 
+* There are antivirals and treatments available in the case of an outbreak
 * CDC performs H5N1 specific surveillance (human) through its influenza A diseae surveillance program, and testing humans exposed to infected animals.
-* USDA performs H5N1 specific surveillance (animal) by milk testing,   
+* USDA performs H5N1 specific surveillance (animal) by milk testing.
+* Independent organizations perform wastewater surveillance.   
 
 
 ### General Precautions
