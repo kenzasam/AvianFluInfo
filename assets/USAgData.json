@@ -93,8 +93,8 @@
       "info": "NDA is issuing an importation order effective immediately. The importation order will require all breeding female dairy cattle entering the state of Nebraska to obtain a permit issued by NDA prior to entry. The importation order has been extended to December 31, 2024 and will be re-evaluated at that time. To obtain a permit, producers will need to contact NDA at 402-471-2351 "
   },
   "NV": {
-      "deptAg": "",
-      "info": ""
+      "deptAg": "https://agri.nv.gov/Animals/Animal_Disease/Animal_Disease_Updates/",
+      "info": "Any positive detections of Influenza A must be reported to the NDA State Veterinarian at diseasereporting@agri.nv.gov and APHIS at HPAI.Results@usda.gov. APHIS will reimburse for Influenza A testing at NAHLN laboratories associated with several events, as you can find on <a href='https://agri.nv.gov/Animals/Animal_Disease/Cattle_resources/'>their website </a>. Costs for sample collection and shipping will not be covered."
   },
   "NH": {
       "deptAg": "",

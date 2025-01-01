@@ -11,7 +11,7 @@ Avian flu is caused by a virus that naturally spreads amongst wild bird populati
 
 ## Risk
 Avian influenza caused by strain H5N1 has a high mortality rate in animals, especially poultry.
-Avian flu can infect humans through animal exposure (feces and body fluids, like blood, mucus, and saliva) or exposure to highly contaminated environments. Infected people may not develop any symptoms and others may develop mild ones. Early symptoms in people can include cough, high fever, shortness of breath, muscle aches, and headache. In severe cases, pneumonia, seizures, a changed mental state or death can occur. Of the human cases (H5N1) between 2003 and 2024, mortality rate has been 52% (source).
+Avian flu can infect humans through animal exposure (feces and body fluids, like blood, mucus, and saliva) or exposure to highly contaminated environments. Infected people may not develop any symptoms and others may develop mild ones. Early symptoms in people can include cough, high fever, shortness of breath, muscle aches, and headache. In severe cases, pneumonia, seizures, a changed mental state or death can occur. Of the human cases (H5N1) between 2003 and 2024, mortality rate has been ~50%, however this reports only detected cases of H5N1 and represents a cases in vastly different healthcare settings. Of the reported US cases, mortality rate is so far 0%.
 
 Currently there has not been any detection of human-to-human transmission. However, small mutations (e.g. a single mutation as documented here) can turn the virus transmissible between humans and highly pandemic potential.
 
