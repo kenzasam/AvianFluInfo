@@ -15,8 +15,7 @@ The [USDA](https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-infl
 ## Immediate Actions for Dairy Farmers
 1. If you work with dairy cows suspected or confirmed to have avian flu and you start to feel sick, please contact your local public health department.
 2. Report dead or sick birds or animals to the USDA toll-free at 1-866-536-7593
-3. Test raw (unpasteurized) milk intended for pasteurization (Federal requirement since Dec 6, 2024)
-4. Report HPAI positive milk (Ferderal requirement since Dec 6, 2024)
+3. Follow National Milk Testing (NMTS). If you are in a required state: test raw (unpasteurized) milk intended for pasteurization, and report HPAI positive milk (Ferderal requirement since Dec 6, 2024).
 5. Get clearance before interstate movement of cattle  (Federal requirement since April 24, 2024)
 6. Improve biosecurity (Highly advised): [EN](https://nationaldairyfarm.com/wp-content/uploads/2023/09/Enhanced-Biosecurity-Prep-Guide-1.pdf) , ES
 7. Track movement of your cattle using an Animal Movement Log (Highly advised): [EN]()
@@ -26,13 +25,12 @@ The [USDA](https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-infl
 {% include USDAMapSnippet.html %}
 
 ## General Updates for Farm Workers
-* December 6, 2024: USDA has implemented testing requirements for raw (unpasteurized) milk intended for pasteurization and reporting requirements for HPAI positive milk [here](https://www.aphis.usda.gov/sites/default/files/20241205-federal-order-final.pdf)
+* December 6, 2024: **National Milk Testing Strategy**: USDA has implemented testing requirements for raw (unpasteurized) milk intended for pasteurization and reporting requirements for HPAI positive milk [here](https://www.aphis.usda.gov/sites/default/files/20241205-federal-order-final.pdf)
 * April 24, 2024: USDA has implemented testing requirements for the interstate movement of lactating dairy cattle in an effort to contain the spread of disease.  The order can be found on USDA’s website [here](https://www.aphis.usda.gov/sites/default/files/dairy-federal-order.pdf)
 * The USDA provides [financial assistance](https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/livestock/financial-assistance) for milk testing, PPE, offset for milk loss, and other biosecurity measures.  
 * There is [**free** technical support available to improve your farms cybersecurity](https://www.isac.bio/post/update-hpai-h5n1-avian-influenza-2024) and operational systems. Please contact ISAC.
 * Some states offer **free PPE** (colorado)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e1Ar8IqXb9Y" title="Guía de Influenza A(H5N1) para Trabajadores de Granjas Lecheras y Avícolas." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Additional Resources for Poultry farmers
 * [Penn State Extension: Poultry Houses – Biosecurity](https://extension.psu.edu/poultry-houses-biosecurity)
@@ -43,6 +41,10 @@ The [USDA](https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-infl
 ## Additional Resources for Dairy farmers
 * Request a **free biosecurity kit** sent to you [here](https://www.centerfordairyexcellence.org/request-an-everyday-biosecurity-kit/)
 * Signs, training videos, cleaning guides, in Spanish and English, [here](https://securemilksupply.org/training-materials/biosecurity/)
+* Is my state enrolled in the National Milk Testing Strategy (NMST)? See Below
+
+<script type='module' src='https://publicdashboards.dl.usda.gov/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://publicdashboards.dl.usda.gov/t/MRP_PUB/views/H5AIinDairyCattleNationalMilkTestingStrategy/CurrentDashboard' width='850' height='1227' hide-tabs toolbar='bottom' ></tableau-viz>
+
 
 ## Additional resources for other animal farmers 
 * [CDC's guidance for backyard flock owners](https://www.cdc.gov/bird-flu/caring/)
