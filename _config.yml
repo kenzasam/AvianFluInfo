@@ -4,15 +4,8 @@ remote_theme: pages-themes/minimal@v0.2.0
 baseurl: "/AvianFluInfo"
 plugins:
   - jekyll-remote-theme
-  - jekyll-chatgpt-translate
-last-modified-at:
-    date-format: '%d-%b-%y'
-chatgpt-translate:
-  model: gpt-3.5-turbo
-  source: en
-  layout: translated
-  targets: 
-    - 
-      language: es
-      permalink: :year-:month-:day-:slug-spanish.html
-      layout: spanish-translated
+languages: ["en", "es"]
+default_lang: "en"
+exclude_from_localization: ["assets"]
+parallel_localization: true
+url: https://kenzasam.github.io/AvianFluInfo/
