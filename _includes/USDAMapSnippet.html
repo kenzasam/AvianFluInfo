@@ -5,7 +5,7 @@
 </section>
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script src="https://d3js.org/topojson.v1.min.js"></script>
-<script src="{{ "/assets/datamaps.usa.min.js" | relative_url }}"></script>
+<script src="{{ "datamaps.usa.min.js" | relative_url }}"></script>
 <script>
 var map;
 function initMap(containerId1,containerId2, dataURL) {   
@@ -58,7 +58,7 @@ function initMap(containerId1,containerId2, dataURL) {
   document.addEventListener("DOMContentLoaded", function() {
     if (typeof initMap === 'function') {
       console.log("Initializing the map...");
-      initMap('container1', 'container2', '{{ "/assets/USAgData.json" | relative_url }}');
+      initMap('container1', 'container2', '{{ "/USAgData.json" | relative_url }}');
       console.log("Map Initialized");
     }
   });
