@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Surveillance results
+permalink: /numbers
 lang: es
 ---
 

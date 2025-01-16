@@ -1,6 +1,8 @@
 ---
 layout: default
 title: General Info
+permalink: /general
+lang: es
 ---
 
 ## About Bird Flu

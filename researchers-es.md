@@ -1,6 +1,8 @@
 ---
 layout: default
 title: For Reseachers and the Scientific Community
+permalink: /researchers
+lang: es
 ---
 
 ## Surveillance data
