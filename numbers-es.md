@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Surveillance results
-permalink: /numbers
+permalink: /numeros
 lang: es
+page_id: numbers
 ---
 
-## Humans (CDC)
+## Humanos (CDC)
 
 Can be found [here](https://www.cdc.gov/bird-flu/situation-summary/index.html#human-cases). I'm working on a visualisation...
 
