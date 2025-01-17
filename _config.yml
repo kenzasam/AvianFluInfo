@@ -1,6 +1,7 @@
 plugins:
   - jekyll-remote-theme
   - jekyll-polyglot
+  - jekyll-redirect-from
 
 #setup
 title: Bird Flu Info

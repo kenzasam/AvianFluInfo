@@ -1,10 +1,9 @@
 ---
 layout: default
 title: For people working with animals
-redirect_to: /animals-en
 ---
 
-This is trying to redirect
+(esp)
 
 Resources for animal industry, farmers, backyard flock owners, hunters, and pet owners. You can find guidance for your state on the map below, and [you can find you state Vet here](https://www.aphis.usda.gov/contact/animal-health?filter=report%20sick%20or%20dead%20livestock%2C%20aquatics%2C%20or%20poultry).
 
