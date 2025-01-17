@@ -16,8 +16,13 @@ lang: en
 - [Viral genetic sequence information](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1102327) from the National Veterinary Services Laboratories (NVSL) of the Animal and Plant Health Inspection Service (APHIS) of the U.S. Department of Agriculture (USDA): 
 - Consensus genomes made available by the [Andersen Lab](https://github.com/andersen-lab/avian-influenza)
 
-## Current infrastructure (OneHealth Framework)
+## In vitro / In vivo resources
+- developed a [animal disease model]() (ferret) for in vivo studies.
+- The National Institute of Standards (NIST) has released [positive control RNA fragments](https://www.nist.gov/programs-projects/h5-influenza-positive-controls) for in vitro use and verification of PCR based assays.
 
+
+
+## Current infrastructure (OneHealth Framework)
 ### Prevent
 Humans
 - Testing in combination with sequencing can detect a spillover event.

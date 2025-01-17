@@ -1,7 +1,7 @@
 ---
 layout: default
 title: For people working with animals
-redirect_to: /animals-en
+redirect_to: animals
 ---
 
 This is trying to redirect
