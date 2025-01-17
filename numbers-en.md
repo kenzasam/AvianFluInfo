@@ -3,7 +3,6 @@ layout: default
 title: Surveillance results
 permalink: /numbers
 lang: en
-page_id: numbers
 ---
 
 ## Humans

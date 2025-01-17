@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Surveillance results
-permalink: /numeros
+permalink: /numbers
 lang: es
-page_id: numbers
 ---
 
 ## Humanos (CDC)
