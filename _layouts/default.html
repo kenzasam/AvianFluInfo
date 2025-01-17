@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+{% assign lang = site.active_lang %}
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,7 +27,7 @@
           <img src="{{ site.logo | relative_url }}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description[lang] | default: site.github.project_tagline }}</p>
+        <p>{{ site.description[lang] }}</p>
 
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
@@ -54,6 +53,28 @@
             <li><a href="{{ "/numbers.html" | relative_url  }}">Numbers</a></li>
           </ul>
         </nav>
+        <nav class="sidebar-nav">
+          {% assign pages_list = site.pages %}
+          {% assign written = "" | split: '' %}
+          {% for node in pages_list %}
+            {% if written contains node.title %}
+              {% continue %}
+            {% endif %}
+            {% if node.title != null %}
+              {% if node.layout == "page" %}
+                <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a>
+              {% endif %}
+              {% assign written = written | push: node.title %}
+            {% endif %}
+          {% endfor %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        </nav>
+        <p>
+          <!-- jekyll-polyglot will process ferh= into href= through the static_href liquid block tag without relativizing the url; useful for making language navigation switchers  -->
+          {% for tongue in site.languages %}
+        <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %} >{{ tongue }}</a>{%- if forloop.last == false -%}{{" "}}{{ site.langsep }}{%- endif -%}
+          {% endfor %}
+        </p>
       </header>
       <section>
         <h1>{{ page.title }}</h1>
