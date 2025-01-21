@@ -7,7 +7,7 @@ lang: en
 
 ## Humans
 
-Can be found [here](https://www.cdc.gov/bird-flu/situation-summary/index.html#human-cases). I'm working on a visualisation...
+Can be found [here](https://www.cdc.gov/bird-flu/situation-summary/index.html#human-cases).
 
 ## Poultry (USDA)
 

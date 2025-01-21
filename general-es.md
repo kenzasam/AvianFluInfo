@@ -5,7 +5,7 @@ permalink: /general
 lang: es
 ---
 
-## About Bird Flu espa
+## About Bird Flu (esp)
 
 Bird Flu, also called Avian Influenza, is a disease caused by a flu virus. Highly Pathogenic Avian Influenza (HPAI), is specifically caused by an Influenza A virus subtype called H5N1, which has high mortality. The United States has an ongoing outbreak of H5N1, which started in 2022.
 
