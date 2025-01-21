@@ -9,12 +9,17 @@ description:
   en: Resources to manage the ongoing 2022 - 2024 Influenza A H5N1 outbreak in the US
   es: Recursos para manejar el brote de influenza A H5N1 2022-2024 en los EE. UU.
 remote_theme: pages-themes/minimal@v0.2.0
-baseurl: "/AvianFluInfo"
-url: https://kenzasam.github.io/AvianFluInfo/
+baseurl: "/AvianFluInfo/"
+url: https://kenzasam.github.io/AvianFluInfo
+include:["_includes", "_pages"]
+exclude:
+  - LICENSE
+  - README.md
+  - Gemfile
+  - Gemfile.lock
 
 #polyglot
-languages: ["en", "es"]
-default_lang: "en"
+languages: ["en-us", "es"]
+default_lang: "en-us"
 exclude_from_localization: ["assets"]
-parallel_localization: true
-langsep: "-"
+parallel_localization: false
