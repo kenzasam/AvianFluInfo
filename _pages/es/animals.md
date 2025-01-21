@@ -1,6 +1,8 @@
 ---
 layout: default
-title: For people working with animals
+title: Para las personas que trabajan con animales
+permalink: /animals
+lang: es
 ---
 
 (esp)

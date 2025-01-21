@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +7,20 @@
 
     <!-- SEO Meta -->
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Bird Flu Info | {“en”=&gt;”Resources to manage the ongoing 2022 - 2024 Influenza A H5N1 outbreak in the US”, “es”=&gt;”Recursos para manejar el brote de influenza A H5N1 2022-2024 en los EE. UU.”}</title>
+<title>Vigilancia | Bird Flu Info</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Bird Flu Info" />
-<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="Vigilancia" />
+<meta property="og:locale" content="es" />
 <meta name="description" content="{“en”=&gt;”Resources to manage the ongoing 2022 - 2024 Influenza A H5N1 outbreak in the US”, “es”=&gt;”Recursos para manejar el brote de influenza A H5N1 2022-2024 en los EE. UU.”}" />
 <meta property="og:description" content="{“en”=&gt;”Resources to manage the ongoing 2022 - 2024 Influenza A H5N1 outbreak in the US”, “es”=&gt;”Recursos para manejar el brote de influenza A H5N1 2022-2024 en los EE. UU.”}" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/es/numbers" />
+<meta property="og:url" content="http://localhost:4000/numbers" />
 <meta property="og:site_name" content="Bird Flu Info" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Bird Flu Info" />
+<meta property="twitter:title" content="Vigilancia" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"{“en”=&gt;”Resources to manage the ongoing 2022 - 2024 Influenza A H5N1 outbreak in the US”, “es”=&gt;”Recursos para manejar el brote de influenza A H5N1 2022-2024 en los EE. UU.”}","headline":"Bird Flu Info","name":"Bird Flu Info","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"{“en”=&gt;”Resources to manage the ongoing 2022 - 2024 Influenza A H5N1 outbreak in the US”, “es”=&gt;”Recursos para manejar el brote de influenza A H5N1 2022-2024 en los EE. UU.”}","headline":"Vigilancia","url":"http://localhost:4000/numbers"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -34,7 +34,7 @@
 
 
 <!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/es/favicon.ico" -->
 
 <!-- end custom head snippets -->
 
@@ -60,30 +60,43 @@
         <p>
           <!-- jekyll-polyglot will process ferh= into href= through the static_href liquid block tag without relativizing the url; useful for making language navigation switchers  -->
           
-            <a  style="font-weight: bold;"  
-            href="/"
+            <a  
+            href="/numbers"
             >en</a>
           
-            <a  
-            href="/es/"
+            <a  style="font-weight: bold;"  
+            href="/es/numbers"
             >es</a>
           
         </p>
         <div class="navbar" id="navbar"></div>
         
         
-          <li><a href="/animals">For people working with animals</a></li>
+          <li><a href="/es/animals">Para las personas que trabajan con animales</a></li>
         
-          <li><a href="/general">General Info</a></li>
+          <li><a href="/es/general">Información general</a></li>
         
-          <li><a href="/numbers">Surveillance results</a></li>
+          <li><a href="/es/numbers">Vigilancia</a></li>
         
-          <li><a href="/researchers">For Reseachers and the Scientific Community</a></li>
+          <li><a href="/es/researchers">Para los investigadores y la comunidad científica</a></li>
         
       </header>
       <section>
-        <h1></h1>
-        
+        <h1>Vigilancia</h1>
+        <h2 id="humanos-cdc">Humanos (CDC)</h2>
+
+<p>Can be found <a href="https://www.cdc.gov/bird-flu/situation-summary/index.html#human-cases">here</a>. I’m working on a visualisation…</p>
+
+<h2 id="poultry-usda">Poultry (USDA)</h2>
+
+<script type="module" src="https://publicdashboards.dl.usda.gov/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+<tableau-viz id="tableau-viz" src="https://publicdashboards.dl.usda.gov/t/MRP_PUB/views/VS_Avian_HPAIConfirmedDetections2022/HPAI2022ConfirmedDetections" width="850" height="1727" hide-tabs="" toolbar="bottom"></tableau-viz>
+
+<h2 id="dairy">Dairy</h2>
+
+<script type="module" src="https://publicdashboards.dl.usda.gov/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+<tableau-viz id="tableau-viz" src="https://publicdashboards.dl.usda.gov/t/MRP_PUB/views/VS_Cattle_HPAIConfirmedDetections2024/HPAI2022ConfirmedDetections" width="850" height="1227" hide-tabs="" toolbar="bottom"></tableau-viz>
+
       </section>
       <footer>
         

@@ -2,7 +2,7 @@
 layout: default
 title: For Reseachers and the Scientific Community
 permalink: /researchers
-lang: es
+lang: en
 ---
 
 ## Surveillance data

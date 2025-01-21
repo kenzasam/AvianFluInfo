@@ -1,6 +1,6 @@
 ---
 layout: default
-title: General Info
+title: Información general
 permalink: /general
 lang: es
 ---

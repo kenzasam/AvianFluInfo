@@ -11,14 +11,10 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/map-styles.css" | relative_url }}">
-
-    <!-- Support for older browsers -->
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-
     {% include head-custom.html %}
+
   </head>
+
   <body>
     <div class="wrapper">
       <header>
@@ -45,39 +41,19 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
-
-        <nav>
-          <ul>
-            <li><a href="{{ "/animals.html" }}">For people working with animals</a></li>
-            <li><a href="{{"/researchers.html" | relative_url}}">For Researchers and Scientific Community</a></li>
-            <li><a href="{{ "/general.html" | relative_url }}">General Info</a></li>
-            <li><a href="{{ "/numbers.html" | relative_url  }}">Numbers</a></li>
-          </ul>
-        </nav>
-        <nav class="sidebar-nav">
-          {% assign pages_list = site.pages %}
-          {% assign written = "" | split: '' %}
-          {% for node in pages_list %}
-            {% if written contains node.title %}
-              {% continue %}
-            {% endif %}
-            {% if node.title != null %}
-              {% if node.layout == "page" %}
-                <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a>
-              {% endif %}
-              {% assign written = written | push: node.title %}
-            {% endif %}
-          {% endfor %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-        </nav>
         <p>
           <!-- jekyll-polyglot will process ferh= into href= through the static_href liquid block tag without relativizing the url; useful for making language navigation switchers  -->
           {% for tongue in site.languages %}
             <a {% if tongue == site.active_lang %} style="font-weight: bold;" {% endif %} 
-            {% raw %}{% static_href %} href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %} {% endraw %}
+            {% static_href %} href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %}
             >{{ tongue }}</a>
           {% endfor %}
         </p>
+        <div class="navbar" id="navbar"></div>
+        {% assign pages = site.pages | where_exp: 'page', 'page.title' %}
+        {% for page in pages %}
+          <li><a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a></li>
+        {% endfor %}
       </header>
       <section>
         <h1>{{ page.title }}</h1>

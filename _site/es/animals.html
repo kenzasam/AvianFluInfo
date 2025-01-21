@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO Meta -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Para las personas que trabajan con animales | Bird Flu Info</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Para las personas que trabajan con animales" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="{“en”=&gt;”Resources to manage the ongoing 2022 - 2024 Influenza A H5N1 outbreak in the US”, “es”=&gt;”Recursos para manejar el brote de influenza A H5N1 2022-2024 en los EE. UU.”}" />
+<meta property="og:description" content="{“en”=&gt;”Resources to manage the ongoing 2022 - 2024 Influenza A H5N1 outbreak in the US”, “es”=&gt;”Recursos para manejar el brote de influenza A H5N1 2022-2024 en los EE. UU.”}" />
+<link rel="canonical" href="http://localhost:4000/es/animals" />
+<meta property="og:url" content="http://localhost:4000/animals" />
+<meta property="og:site_name" content="Bird Flu Info" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Para las personas que trabajan con animales" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"{“en”=&gt;”Resources to manage the ongoing 2022 - 2024 Influenza A H5N1 outbreak in the US”, “es”=&gt;”Recursos para manejar el brote de influenza A H5N1 2022-2024 en los EE. UU.”}","headline":"Para las personas que trabajan con animales","url":"http://localhost:4000/animals"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/assets/css/style.css?v=d7586a40d0abcd98c336c2afcd3e893a797482bf">
+    <link rel="stylesheet" href="/assets/map-styles.css">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/es/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000">Bird Flu Info</a></h1>
+
+        
+
+        <p></p>
+
+        
+        <p class="view"><a href="https://github.com/kenzasam/avianfluinfo">View the Project on GitHub <small>kenzasam/avianfluinfo</small></a></p>
+        
+
+        
+
+        
+        <p>
+          <!-- jekyll-polyglot will process ferh= into href= through the static_href liquid block tag without relativizing the url; useful for making language navigation switchers  -->
+          
+            <a  
+            href="/animals"
+            >en</a>
+          
+            <a  style="font-weight: bold;"  
+            href="/es/animals"
+            >es</a>
+          
+        </p>
+        <div class="navbar" id="navbar"></div>
+        
+        
+          <li><a href="/es/animals">Para las personas que trabajan con animales</a></li>
+        
+          <li><a href="/es/general">Información general</a></li>
+        
+          <li><a href="/es/numbers">Vigilancia</a></li>
+        
+          <li><a href="/es/researchers">Para los investigadores y la comunidad científica</a></li>
+        
+      </header>
+      <section>
+        <h1>Para las personas que trabajan con animales</h1>
+        <p>(esp)</p>
+
+<p>Resources for animal industry, farmers, backyard flock owners, hunters, and pet owners. You can find guidance for your state on the map below, and <a href="https://www.aphis.usda.gov/contact/animal-health?filter=report%20sick%20or%20dead%20livestock%2C%20aquatics%2C%20or%20poultry">you can find you state Vet here</a>.</p>
+
+<p>The <a href="https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza">USDA</a> can help producers with:</p>
+<ul>
+  <li>PPE and/or laundering</li>
+  <li>Biosecurity planning and implementation</li>
+  <li>Heat treatment for waste milk</li>
+  <li>Veterinarian costs</li>
+  <li>Shipping costs for samples</li>
+</ul>
+
+<h2 id="immediate-actions-for-dairy-farmers">Immediate Actions for Dairy Farmers</h2>
+<ol>
+  <li>If you work with dairy cows suspected or confirmed to have avian flu and you start to feel sick, please contact your local public health department.</li>
+  <li>Report dead or sick birds or animals to the USDA toll-free at 1-866-536-7593</li>
+  <li>Follow National Milk Testing (NMTS). If you are in a required state: test raw (unpasteurized) milk intended for pasteurization, and report HPAI positive milk (Ferderal requirement since Dec 6, 2024).</li>
+  <li>Get clearance before interstate movement of cattle  (Federal requirement since April 24, 2024)</li>
+  <li>Improve biosecurity (Highly advised): <a href="https://nationaldairyfarm.com/wp-content/uploads/2023/09/Enhanced-Biosecurity-Prep-Guide-1.pdf">EN</a> , ES</li>
+  <li>Track movement of your cattle using an Animal Movement Log (Highly advised): <a href="">EN</a></li>
+</ol>
+
+<h2 id="state-specific-information">State Specific Information</h2>
+
+<!-- example of real time updated map w jQuery: https://gist.github.com/markmarkoh/4127667 -->
+<section id="map-section" style="position: relative;">
+    <div id="container1" style="width: 100%; height: 100%;"></div>
+    <div id="container2" style="margin-top: 20px;"></div>
+</section>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+
+<script src="/assets/datamaps.usa.min.js"></script>
+
+<script>
+var map;
+function initMap(containerId1,containerId2, dataURL) {   
+  var map = new Datamap({
+      scope: 'usa',
+      element: document.getElementById(containerId1),
+      responsive: true,
+      dataUrl: dataURL,
+      dataType: 'json',
+      data:{},
+      fills: {
+          defaultFill: '#EDDC4E'
+      },
+      geographyConfig: {
+          highlightBorderColor: '#bada55',
+          highlightBorderWidth: 3,
+          popupOnHover: false
+      },
+      done: function(map) {
+          console.log("Map Data:", map.options.data);
+          map.svg.selectAll('.datamaps-subunit').on('click', function(geo) {
+              console.log("Clicked Geo ID:", geo.id);
+              // Retrieve the state data
+              const stateData = map.options.data[geo.id] || {};
+              console.log("State Data:", stateData);
+              // Reset fill color for all states
+              map.svg.selectAll('.datamaps-subunit').style('fill', function () {
+                  return map.options.fills.defaultFill; // Reset to the defaultFill color
+              });
+              // Highlight the clicked state
+              d3.select(this).style('fill', '#bada55');
+              // Display data in container2
+              var deptAgLink = stateData.deptAg 
+                ? `<a href='${stateData.deptAg }' target="_blank">Department of Agriculture</a>` : 'No Department of Agriculture link available';
+              var additionalInfo = stateData.info 
+                ? `<p>${stateData.info}</p>` : "<p>No additional information available.</p>";
+              //update container 2
+              document.getElementById(containerId2).innerHTML = `
+                  <h3>${geo.properties.name}</h3>
+                  ${deptAgLink}
+                  ${additionalInfo}
+              `;
+          });
+      }
+      });
+  map.labels();
+} </script>
+
+<script>
+  console.log("USDAMapSnippet.html is loaded.");
+  document.addEventListener("DOMContentLoaded", function() {
+    if (typeof initMap === 'function') {
+      console.log("Initializing the map...");
+      initMap('container1', 'container2', '');
+      console.log("Map Initialized");
+    }
+  });
+  window.addEventListener('resize', function() {
+    map.resize();
+  });
+</script>
+
+<h2 id="general-updates-for-farm-workers">General Updates for Farm Workers</h2>
+<ul>
+  <li>December 6, 2024: <strong>National Milk Testing Strategy</strong>: USDA has implemented testing requirements for raw (unpasteurized) milk intended for pasteurization and reporting requirements for HPAI positive milk <a href="https://www.aphis.usda.gov/sites/default/files/20241205-federal-order-final.pdf">here</a></li>
+  <li>April 24, 2024: USDA has implemented testing requirements for the interstate movement of lactating dairy cattle in an effort to contain the spread of disease.  The order can be found on USDA’s website <a href="https://www.aphis.usda.gov/sites/default/files/dairy-federal-order.pdf">here</a></li>
+  <li>The USDA provides <a href="https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/livestock/financial-assistance">financial assistance</a> for milk testing, PPE, offset for milk loss, and other biosecurity measures.</li>
+  <li>There is <a href="https://www.isac.bio/post/update-hpai-h5n1-avian-influenza-2024"><strong>free</strong> technical support available to improve your farms cybersecurity</a> and operational systems. Please contact ISAC.</li>
+  <li>Some states offer <strong>free PPE</strong> (colorado)</li>
+</ul>
+
+<h2 id="additional-resources-for-poultry-farmers">Additional Resources for Poultry farmers</h2>
+<ul>
+  <li><a href="https://extension.psu.edu/poultry-houses-biosecurity">Penn State Extension: Poultry Houses – Biosecurity</a></li>
+  <li><a href="https://extension.psu.edu/biosecurity-protecting-your-birds-from-disease">Penn State Extension: Biosecurity: Protecting Your Birds from Disease</a></li>
+  <li><a href="https://extension.psu.edu/national-poultry-improvement-plan-npip-biosecurity-planning">Penn State Extension: National Poultry Improvement Plan (NPIP) Biosecurity Planning</a></li>
+  <li><a href="https://extension.psu.edu/creating-a-poultry-flock-plan">Penn State Extension: Creating a Poultry Flock Plan</a></li>
+</ul>
+
+<h2 id="additional-resources-for-dairy-farmers">Additional Resources for Dairy farmers</h2>
+<ul>
+  <li>Request a <strong>free biosecurity kit</strong> sent to you <a href="https://www.centerfordairyexcellence.org/request-an-everyday-biosecurity-kit/">here</a></li>
+  <li>Signs, training videos, cleaning guides, in Spanish and English, <a href="https://securemilksupply.org/training-materials/biosecurity/">here</a></li>
+  <li>Is my state enrolled in the National Milk Testing Strategy (NMST)? See Below</li>
+</ul>
+
+<script type="module" src="https://publicdashboards.dl.usda.gov/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+<tableau-viz id="tableau-viz" src="https://publicdashboards.dl.usda.gov/t/MRP_PUB/views/H5AIinDairyCattleNationalMilkTestingStrategy/CurrentDashboard" width="850" height="1227" hide-tabs="" toolbar="bottom"></tableau-viz>
+
+<h2 id="additional-resources-for-other-animal-farmers">Additional resources for other animal farmers</h2>
+<ul>
+  <li><a href="https://www.cdc.gov/bird-flu/caring/">CDC’s guidance for backyard flock owners</a></li>
+  <li><a href="https://www.aphis.usda.gov/sites/default/files/small-ruminant-camelid-h5n1-info.pdf">USDA guide for HPAI in Sheep, goats and camelid</a></li>
+</ul>
+
+<h2 id="additional-resources-for-wildlife-managers-and-hunters">Additional Resources for wildlife managers and Hunters</h2>
+<ul>
+  <li><a href="https://www.health.state.mn.us/diseases/flu/current/healthinfohunter.pdf">Highly Pathogenic Avian Influenza (HPAI): What You Need to Know if You are a Hunter (PDF)</a></li>
+  <li><a href="https://www.health.state.mn.us/diseases/flu/current/healthinfowild.pdf">Health Information for People in Contact with Avian Influenza A(H5N1) Positive Wildlife (PDF)</a></li>
+</ul>
+
+<h2 id="additional-resources-for-pet-owners">Additional Resources for pet owners</h2>
+<ul>
+  <li>Influenza A(H5N1) Infection has caused the death of domestic cats and zoo animals (mountain lion, cheetah) in 2024. The cause was likely unpasteurized milk.</li>
+  <li><a href="https://www.health.state.mn.us/diseases/flu/current/factsheetforfetclinics.pdf">Influenza A(H5N1) Infection in Companion Animals: Guidance for Veterinary Clinics from the Minnesota Department of Health and the Board of Animal Health (PDF)</a></li>
+</ul>
+
+      </section>
+      <footer>
+        
+        <p><small>This project is maintained by <a href="https://github.com/kenzasam">kenzasam</a></small></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>

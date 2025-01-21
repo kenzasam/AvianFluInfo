@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Surveillance results
+title: Vigilancia
 permalink: /numbers
 lang: es
 ---

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: For Reseachers and the Scientific Community
+title: Para los investigadores y la comunidad científica
 permalink: /researchers
-lang: en
+lang: es
 ---
 
 ## Surveillance data
