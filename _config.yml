@@ -15,12 +15,12 @@ exclude:
 
 #plugins
 plugins:
-  - jekyll-remote-theme
-  - jekyll-polyglot
-  - jekyll-redirect-from
+   - jekyll-polyglot
+   - jekyll-remote-theme 
+   - jekyll-redirect-from
 
 #polyglot
 languages: ["en", "es"]
 default_lang: "en"
 exclude_from_localization: ["assets"]
-parallel_localization: false
+parallel_localization: true
