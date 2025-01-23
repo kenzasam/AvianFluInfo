@@ -5,20 +5,20 @@ permalink: /researchers
 lang: es
 ---
 
-## Surveillance data
-- [Phylogenetic analysis of H5N1 on Nextstrain](https://nextstrain.org/avian-flu/h5n1/ha/all-time@2024-06-18)
-- [Reported cases of HPAI in Wild Mammals, USDA](https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/mammals)
-- [Reported cases of HPAI in Poultry](https://publicdashboards.dl.usda.gov/t/MRP_PUB/views/VS_Avian_HPAIConfirmedDetections2022/HPAI2022ConfirmedDetections?%3Aembed=y&%3AisGuestRedirectFromVizportal=y)
-- [Wastewater surveillance data on HPAI](https://data.wastewaterscan.org/)
+## Datos de vigilancia
+- [Análisis filogenético del virus H5N1 en Nextstrain](https://nextstrain.org/avian-flu/h5n1/ha/all-time@2024-06-18)
+- [Casos notificados de IAAP en mamíferos silvestres, USDA](https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/mammals)
+- [Casos notificados de IAAP en aves de corral](https://publicdashboards.dl.usda.gov/t/MRP_PUB/views/VS_Avian_HPAIConfirmedDetections2022/HPAI2022ConfirmedDetections?%3Aembed=y&%3AisGuestRedirectFromVizportal=y)
+- [Datos de vigilancia de aguas residuales sobre IAAP](https://data.wastewaterscan.org/)
 
 ## Sequencing data
-- [Viral genetic Sequence information](https://gisaid.org/) from various sources (human, poultry, catle) on GISAID
-- [Viral genetic sequence information](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1102327) from the National Veterinary Services Laboratories (NVSL) of the Animal and Plant Health Inspection Service (APHIS) of the U.S. Department of Agriculture (USDA): 
-- Consensus genomes made available by the [Andersen Lab](https://github.com/andersen-lab/avian-influenza)
+- [Información de la secuencia genética viral](https://gisaid.org/) de diversas fuentes (humanas, avícolas, bovinas) en GISAID
+- [Información de la secuencia genética viral](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1102327) de los Laboratorios Nacionales de Servicios Veterinarios (NVSL) del Servicio de Inspección de Sanidad Animal y Vegetal (APHIS) del Departamento de Agricultura de los Estados Unidos (USDA).
+- Genomas de consenso puestos a disposición por [Andersen Lab](https://github.com/andersen-lab/avian-influenza)
 
-## In vitro / In vivo resources
+## Recursos In vitro / In vivo
 - developed a [animal disease model]() (ferret) for in vivo studies.
-- The National Institute of Standards (NIST) has released [positive control RNA fragments](https://www.nist.gov/programs-projects/h5-influenza-positive-controls) for in vitro use and verification of PCR based assays.
+- El Instituto Nacional de Normas (NIST) ha publicado [fragmentos de ARN de control positivo](https://www.nist.gov/programs-projects/h5-influenza-positive-controls) para uso in vitro y verificación de ensayos basados ​​en PCR.
 
 
 
