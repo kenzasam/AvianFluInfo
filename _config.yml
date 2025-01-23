@@ -17,7 +17,6 @@ exclude:
 plugins:
    - jekyll-polyglot
    - jekyll-remote-theme 
-   - jekyll-redirect-from
 
 #polyglot
 languages: ["en", "es"]
