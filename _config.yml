@@ -1,25 +1,26 @@
+baseurl: ""
+url: https://www.usbirdlu.com/
+
+#polyglot
+languages: ["en", "es"]
+default_lang: "en"
+exclude_from_localization: ["assets"]
+parallel_localization: false
+
 #setup
 title: Bird Flu Info
 description: 
   en: Resources to manage the ongoing 2022 - 2024 Influenza A H5N1 outbreak in the US
   es: Recursos para manejar el brote de influenza A H5N1 2022-2024 en los EE. UU.
 remote_theme: pages-themes/minimal@v0.2.0
-baseurl: 
-url: https://kenzasam.github.io/AvianFluInfo
-include: ["_includes", "_pages"]
+
+include: ["_includes", "_pages", "_json"]
 exclude:
   - LICENSE
   - README.md
-  - Gemfile
-  - Gemfile.lock
 
 #plugins
 plugins:
    - jekyll-polyglot
    - jekyll-remote-theme 
 
-#polyglot
-languages: ["en", "es"]
-default_lang: "en"
-exclude_from_localization: ["assets"]
-parallel_localization: true
