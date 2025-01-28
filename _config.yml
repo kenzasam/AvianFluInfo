@@ -18,6 +18,9 @@ include: ["_includes", "_pages", "_json"]
 exclude:
   - LICENSE
   - README.md
+  - vendor
+  - Gemfile
+  - Gemfile.lock
 
 #plugins
 plugins:
