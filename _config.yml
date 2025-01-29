@@ -1,6 +1,7 @@
 baseurl: ""
 url: https://www.usbirdlu.com/
 repository: kenzasam/AvianFluInfo
+logo: /assets/h5n1-bg.png
 
 #polyglot
 languages: ["en", "es"]
